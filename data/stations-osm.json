@@ -1,0 +1,337 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-18T09:53:33Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1435294693,
+  "lat": 19.0164338,
+  "lon": 73.0806552,
+  "tags": {
+    "addr:city": "Navi Mumbai",
+    "addr:postcode": "410209",
+    "addr:street": "Mansarovar Station Road",
+    "alt_name": "Kamothe",
+    "internet_access": "yes",
+    "name": "Mansarovar",
+    "network": "Mumbai Suburban Railway Network",
+    "operator": "CR",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "MANR",
+    "station": "light_rail",
+    "train": "yes",
+    "wheelchair": "limited",
+    "wikidata": "Q6751559",
+    "wikipedia": "en:Mansarovar railway station"
+  }
+},
+{
+  "type": "node",
+  "id": 1645802025,
+  "lat": 19.0073498,
+  "lon": 73.0952827,
+  "tags": {
+    "addr:city": "Navi Mumbai",
+    "addr:postcode": "410206",
+    "addr:street": "Khandeshwar Station Road",
+    "internet_access": "yes",
+    "layer": "1",
+    "name": "Khandeshwar",
+    "network": "Mumbai Suburban Railway Network",
+    "operator": "CR",
+    "platforms": "2",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "KNDS",
+    "station": "light_rail",
+    "train": "yes",
+    "wheelchair": "limited",
+    "wikidata": "Q6400242",
+    "wikipedia": "en:Khandeshwar railway station"
+  }
+},
+{
+  "type": "node",
+  "id": 2630075009,
+  "lat": 18.9894239,
+  "lon": 73.1226950,
+  "tags": {
+    "gauge": "1676",
+    "internet_access": "wlan",
+    "name": "Panvel",
+    "name:hi": "पनवेल",
+    "name:mr": "पनवेल",
+    "network": "IR",
+    "operator": "CR",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "PNVL",
+    "train": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q7131981",
+    "wikipedia": "en:Panvel railway station"
+  }
+},
+{
+  "type": "node",
+  "id": 11335491946,
+  "lat": 19.0190075,
+  "lon": 73.0391304,
+  "tags": {
+    "addr:city": "Navi Mumbai",
+    "addr:postcode": "400614",
+    "name": "CBD Belapur",
+    "name:mr": "सी बी डी बेलापूर",
+    "network": "Mumbai Suburban Railway Network",
+    "operator": "Central Railways",
+    "platforms": "4",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "BEPR",
+    "train": "yes",
+    "wheelchair": "limited",
+    "wikidata": "Q5009065",
+    "wikipedia": "en:CBD Belapur railway station"
+  }
+},
+{
+  "type": "node",
+  "id": 11335491947,
+  "lat": 19.0205999,
+  "lon": 73.0402663,
+  "tags": {
+    "name": "CBD Belapur",
+    "name:mr": "सी बी डी बेलापूर",
+    "network": "Navi Mumbai Metro",
+    "operator": "CIDCO",
+    "public_transport": "station",
+    "railway": "station",
+    "station": "subway",
+    "subway": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12189351682,
+  "lat": 19.0258415,
+  "lon": 73.0593001,
+  "tags": {
+    "addr:city": "Navi Mumbai",
+    "addr:postcode": "410210",
+    "addr:street": "Kharghar Station Road",
+    "internet_access": "yes",
+    "name": "Kharghar",
+    "network": "Indian Railways",
+    "operator": "Central Railway",
+    "platforms": "4",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "KHAG",
+    "train": "yes",
+    "wheelchair": "limited",
+    "wikidata": "Q6400640",
+    "wikipedia": "en:Kharghar railway station"
+  }
+},
+{
+  "type": "node",
+  "id": 12189351683,
+  "lat": 19.0218192,
+  "lon": 73.0191588,
+  "tags": {
+    "name": "Seawoods",
+    "name:en": "Seawoods",
+    "name:hi": "सीवुड्ज़",
+    "network": "Mumbai Suburban Railway",
+    "network:wikidata": "Q3273422",
+    "operator": "Central Railway",
+    "platforms": "4",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "SWDV",
+    "train": "yes",
+    "wikidata": "Q3632540"
+  }
+},
+{
+  "type": "way",
+  "id": 113688843,
+  "center": {
+    "lat": 18.9909392,
+    "lon": 73.1206050
+  },
+  "tags": {
+    "addr:city": "Panvel",
+    "addr:postcode": "410206",
+    "addr:street": "Panvel Station Road",
+    "building": "train_station",
+    "internet_access": "wlan",
+    "internet_access:ssid": "RailWire Wi-Fi",
+    "layer": "1",
+    "name": "Panvel (Suburban)",
+    "network": "Mumbai Suburban Railway Network",
+    "operator": "Central Railways",
+    "platforms": "4",
+    "public_transport": "train_station",
+    "railway": "station",
+    "ref": "PNVL",
+    "train": "yes",
+    "wheelchair": "yes",
+    "wikidata": "Q7131981",
+    "wikipedia": "en:Panvel railway station"
+  }
+},
+{
+  "type": "way",
+  "id": 151768155,
+  "center": {
+    "lat": 19.0632912,
+    "lon": 72.9987620
+  },
+  "tags": {
+    "addr:city": "Navi Mumbai",
+    "addr:postcode": "400703",
+    "addr:street": "Vashi Station Road",
+    "building": "train_station",
+    "building:levels": "7",
+    "internet_access": "wlan",
+    "internet_access:ssid": "RailWire Wi-Fi",
+    "layer": "1",
+    "name": "Vashi",
+    "name:hi": "वाशी",
+    "network": "Mumbai Suburban Railway Network",
+    "operator": "Central Railways",
+    "platforms": "4",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "VSH",
+    "train": "yes",
+    "wheelchair": "limited",
+    "wikidata": "Q7916505",
+    "wikipedia": "en:Vashi railway station"
+  }
+},
+{
+  "type": "way",
+  "id": 151769149,
+  "center": {
+    "lat": 19.0659856,
+    "lon": 73.0095329
+  },
+  "tags": {
+    "addr:city": "Navi Mumbai",
+    "addr:postcode": "400706",
+    "addr:street": "Sanpada Station Road",
+    "building": "retail",
+    "internet_access": "yes",
+    "layer": "1",
+    "name": "Sanpada",
+    "name:hi": "सानपाडा",
+    "network": "Mumbai Suburban Railway Network",
+    "operator": "Central Railways",
+    "platforms": "4",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "SNCR",
+    "train": "yes",
+    "wheelchair": "limited",
+    "wikidata": "Q7418902",
+    "wikipedia": "en:Sanpada railway station"
+  }
+},
+{
+  "type": "way",
+  "id": 562395722,
+  "center": {
+    "lat": 19.0257729,
+    "lon": 73.0591845
+  },
+  "tags": {
+    "addr:city": "Navi Mumbai",
+    "addr:postcode": "410210",
+    "addr:street": "Kharghar Station Road",
+    "building": "parking",
+    "internet_access": "yes",
+    "layer": "1",
+    "level": "1",
+    "name": "Kharghar",
+    "operator": "CR",
+    "platforms": "4",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "KHAG",
+    "train": "yes",
+    "wheelchair": "limited",
+    "wikidata": "Q6400640",
+    "wikipedia": "en:Kharghar railway station"
+  }
+},
+{
+  "type": "way",
+  "id": 572630813,
+  "center": {
+    "lat": 19.0335798,
+    "lon": 73.0181584
+  },
+  "tags": {
+    "addr:city": "Navi Mumbai",
+    "addr:postcode": "400706",
+    "addr:street": "Mata Amritanandamayi Marg",
+    "building": "train_station",
+    "internet_access": "yes",
+    "layer": "2",
+    "name": "Nerul",
+    "network": "Mumbai Suburban Railway Network",
+    "nohousenumber": "yes",
+    "operator": "Central Railways",
+    "platforms": "6",
+    "public_transport": "train_station",
+    "railway": "station",
+    "ref": "NEU",
+    "train": "yes",
+    "wheelchair": "limited",
+    "wikidata": "Q15261704",
+    "wikipedia": "en:Nerul railway station"
+  }
+},
+{
+  "type": "way",
+  "id": 642845770,
+  "center": {
+    "lat": 19.0558651,
+    "lon": 73.0182495
+  },
+  "tags": {
+    "addr:city": "Navi Mumbai",
+    "addr:postcode": "400706",
+    "addr:street": "Juinagar Station Road",
+    "alt_name": "Jui Nagar",
+    "building": "retail",
+    "internet_access": "yes",
+    "layer": "1",
+    "name": "Juinagar",
+    "name:en": "Juinagar",
+    "name:hi": "जुईनगर",
+    "network": "Mumbai Suburban Railway Network",
+    "operator": "Cental Railways",
+    "platforms": "6",
+    "public_transport": "station",
+    "railway": "station",
+    "ref": "JNJ",
+    "train": "yes",
+    "wheelchair": "limited",
+    "wikidata": "Q15229831",
+    "wikipedia": "en:Juinagar railway station"
+  }
+}
+
+  ]
+}

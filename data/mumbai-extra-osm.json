@@ -1,0 +1,8754 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-19T18:25:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 5219518738,
+  "lat": 19.1436605,
+  "lon": 72.8197117,
+  "tags": {
+    "construction": "stop",
+    "name": "Swami Samarth Nagar Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5219518747,
+  "lat": 19.1406596,
+  "lon": 72.8272155,
+  "tags": {
+    "construction": "stop",
+    "name": "Lokhandwala Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5219518752,
+  "lat": 19.1417935,
+  "lon": 72.8336078,
+  "tags": {
+    "construction": "stop",
+    "name": "Adarsh Nagar Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5219518799,
+  "lat": 19.1334914,
+  "lon": 72.8746782,
+  "tags": {
+    "construction": "stop",
+    "name": "Mahakali Caves Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5219518806,
+  "lat": 19.1293634,
+  "lon": 72.8826453,
+  "tags": {
+    "construction": "stop",
+    "name": "SEEPZ Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5219518819,
+  "lat": 19.1262047,
+  "lon": 72.8905142,
+  "tags": {
+    "construction": "stop",
+    "name": "Saki Vihar Road Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5219519239,
+  "lat": 19.1200084,
+  "lon": 72.9059687,
+  "tags": {
+    "construction": "stop",
+    "name": "Powai Lake Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5219519273,
+  "lat": 19.1247293,
+  "lon": 72.9364698,
+  "tags": {
+    "construction": "stop",
+    "name": "Vikhroli Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5219622325,
+  "lat": 19.0746681,
+  "lon": 72.8375532,
+  "tags": {
+    "construction": "station",
+    "name": "Saraswat Nagar",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5219622327,
+  "lat": 19.0829188,
+  "lon": 72.8379589,
+  "tags": {
+    "construction": "station",
+    "name": "Khira Nagar",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5219622332,
+  "lat": 19.0648223,
+  "lon": 72.8373113,
+  "tags": {
+    "construction": "station",
+    "name": "National College",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5219622334,
+  "lat": 19.0960793,
+  "lon": 72.8395057,
+  "tags": {
+    "construction": "station",
+    "name": "Nanavati Hospital",
+    "opening_hours": "Mo-Su 09:00-21:00",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5219622335,
+  "lat": 19.1100434,
+  "lon": 72.8371568,
+  "tags": {
+    "construction": "station",
+    "name": "Prem Nagar",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5219622408,
+  "lat": 19.0572366,
+  "lon": 72.8870599,
+  "tags": {
+    "construction": "station",
+    "name": "EEH",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5219622419,
+  "lat": 19.0629954,
+  "lon": 72.8847136,
+  "tags": {
+    "construction": "station",
+    "name": "Kurla",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5219622634,
+  "lat": 19.0718170,
+  "lon": 72.8850871,
+  "tags": {
+    "construction": "station",
+    "name": "Kurla Terminal",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5219622644,
+  "lat": 19.0758037,
+  "lon": 72.8774073,
+  "tags": {
+    "construction": "station",
+    "name": "SG Barve Marg",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5219622658,
+  "lat": 19.0704862,
+  "lon": 72.8706291,
+  "tags": {
+    "construction": "station",
+    "name": "MTNL",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5219622663,
+  "lat": 19.0636424,
+  "lon": 72.8600383,
+  "tags": {
+    "construction": "station",
+    "name": "IL&FS",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5219622677,
+  "lat": 19.0540112,
+  "lon": 72.8493908,
+  "tags": {
+    "construction": "station",
+    "name": "MMRDA",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5219622821,
+  "lat": 19.1028878,
+  "lon": 72.8368664,
+  "tags": {
+    "construction": "station",
+    "name": "Indira Nagar",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5219622841,
+  "lat": 19.1165740,
+  "lon": 72.8298593,
+  "tags": {
+    "construction": "station",
+    "name": "ESIC Nagar",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5221295390,
+  "lat": 19.0942405,
+  "lon": 72.8532589,
+  "tags": {
+    "construction": "station",
+    "name": "CSIA T1",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5225899082,
+  "lat": 19.2674293,
+  "lon": 72.9666461,
+  "tags": {
+    "construction": "stop",
+    "name": "Kasarvadavli Station",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5225899089,
+  "lat": 19.2587261,
+  "lon": 72.9701337,
+  "tags": {
+    "construction": "stop",
+    "name": "Vijay Garden Station",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5225899099,
+  "lat": 19.2383600,
+  "lon": 72.9756099,
+  "tags": {
+    "construction": "stop",
+    "name": "Tikujiniwadi Station",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5225899110,
+  "lat": 19.2115581,
+  "lon": 72.9757702,
+  "tags": {
+    "construction": "stop",
+    "name": "Majiwada Station",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5225899267,
+  "lat": 18.9406308,
+  "lon": 72.8347816,
+  "tags": {
+    "name": "CSMT Metro",
+    "proposed": "station",
+    "railway": "proposed"
+  }
+},
+{
+  "type": "node",
+  "id": 5225899275,
+  "lat": 18.9666830,
+  "lon": 72.8287414,
+  "tags": {
+    "name": "Nagpada Junction",
+    "proposed": "station",
+    "railway": "proposed"
+  }
+},
+{
+  "type": "node",
+  "id": 5225899286,
+  "lat": 18.9759645,
+  "lon": 72.8433150,
+  "tags": {
+    "name": "Reay Road",
+    "proposed": "station",
+    "railway": "proposed"
+  }
+},
+{
+  "type": "node",
+  "id": 5225899320,
+  "lat": 19.0118701,
+  "lon": 72.8622692,
+  "tags": {
+    "name": "BPT Hospital",
+    "proposed": "station",
+    "railway": "proposed"
+  }
+},
+{
+  "type": "node",
+  "id": 5225899340,
+  "lat": 19.1834187,
+  "lon": 72.9508402,
+  "tags": {
+    "construction": "stop",
+    "name": "Mulund Check Naka Station",
+    "public_transport": "stop_position",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5225899378,
+  "lat": 19.1387423,
+  "lon": 72.9307744,
+  "tags": {
+    "construction": "stop",
+    "name": "Bhandup Mahapalika Station",
+    "public_transport": "stop_position",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5225899381,
+  "lat": 19.1328874,
+  "lon": 72.9277198,
+  "tags": {
+    "construction": "stop",
+    "name": "Naval Housing Station",
+    "public_transport": "stop_position",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5225899386,
+  "lat": 19.1253912,
+  "lon": 72.9252519,
+  "tags": {
+    "construction": "stop",
+    "name": "Kanjurmarg Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 5225899391,
+  "lat": 19.1176571,
+  "lon": 72.9260842,
+  "tags": {
+    "construction": "stop",
+    "name": "Surya Nagar Station",
+    "public_transport": "stop_position",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5225899397,
+  "lat": 19.1090047,
+  "lon": 72.9245769,
+  "tags": {
+    "construction": "stop",
+    "name": "Vikhroli Station",
+    "public_transport": "stop_position",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5225899401,
+  "lat": 19.1029081,
+  "lon": 72.9203552,
+  "tags": {
+    "construction": "stop",
+    "name": "Godrej Colony Station",
+    "public_transport": "stop_position",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5225899404,
+  "lat": 19.0976316,
+  "lon": 72.9162042,
+  "tags": {
+    "construction": "stop",
+    "name": "Shreyas Cinema Station",
+    "public_transport": "stop_position",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5226162351,
+  "lat": 19.2936905,
+  "lon": 72.8603182,
+  "tags": {
+    "construction": "station",
+    "name": "Meditya Nagar Station",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 5764017129,
+  "lat": 18.8940449,
+  "lon": 73.1516427,
+  "tags": {
+    "internet_access": "no",
+    "name": "Rasayani",
+    "network": "IR",
+    "operator": "CR",
+    "public_transport": "halt",
+    "railway": "halt",
+    "ref": "RSYI",
+    "train": "yes",
+    "wikidata": "Q15271875"
+  }
+},
+{
+  "type": "node",
+  "id": 6038193885,
+  "lat": 19.1460869,
+  "lon": 72.9360585,
+  "tags": {
+    "bus": "yes",
+    "construction": "stop",
+    "highway": "bus_stop",
+    "name": "Bhandup Station (W)",
+    "name:en": "Bhandup Station West",
+    "public_transport": "platform",
+    "railway": "construction",
+    "shelter": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6577361084,
+  "lat": 19.0538460,
+  "lon": 73.1030296,
+  "tags": {
+    "internet_access": "no",
+    "name": "Navade Road",
+    "network": "IR",
+    "operator": "CR",
+    "public_transport": "halt",
+    "railway": "halt",
+    "ref": "NVRD",
+    "train": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 7116591934,
+  "lat": 19.4365330,
+  "lon": 72.8384526,
+  "tags": {
+    "construction": "station",
+    "name": "Virar Station",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 7116591935,
+  "lat": 19.7863383,
+  "lon": 72.7925799,
+  "tags": {
+    "construction": "station",
+    "name": "Boisar Station",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 7116591940,
+  "lat": 19.1955189,
+  "lon": 73.0601035,
+  "tags": {
+    "construction": "station",
+    "name": "Thane Station",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 7944584970,
+  "lat": 18.5105758,
+  "lon": 73.8350449,
+  "tags": {
+    "construction": "station",
+    "name": "Garware College Station",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 7944584972,
+  "lat": 18.5082186,
+  "lon": 73.8094327,
+  "tags": {
+    "construction": "station",
+    "name": "Anand Nagar Station",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 7944597698,
+  "lat": 18.5193098,
+  "lon": 73.8593673,
+  "tags": {
+    "construction": "station",
+    "name": "Budhwar Peth Station",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 7944597709,
+  "lat": 18.5081264,
+  "lon": 73.7929525,
+  "tags": {
+    "layer": "2",
+    "name": "Kothrud Bus Depot",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 8462729071,
+  "lat": 19.2505903,
+  "lon": 72.9732622,
+  "tags": {
+    "construction": "stop",
+    "name": "Dongripada Station",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 8462838052,
+  "lat": 19.2088584,
+  "lon": 72.9514605,
+  "tags": {
+    "name": "Lokmanya Nagar Bus Depot",
+    "network": "Thane Ring Metro",
+    "opening_date": "2029",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9121318237,
+  "lat": 19.2012539,
+  "lon": 72.9650642,
+  "tags": {
+    "construction": "stop",
+    "name": "Mahapalika Bhavan Marg Station",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 9121318238,
+  "lat": 19.2064179,
+  "lon": 72.9704485,
+  "tags": {
+    "construction": "stop",
+    "name": "Cadbury Junction Station",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 9126268644,
+  "lat": 19.1537528,
+  "lon": 72.9375173,
+  "tags": {
+    "construction": "stop",
+    "name": "Shangrila Station",
+    "public_transport": "stop_position",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 9126268645,
+  "lat": 19.1662004,
+  "lon": 72.9384301,
+  "tags": {
+    "construction": "stop",
+    "name": "Sonapur Station",
+    "public_transport": "stop_position",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 9126268646,
+  "lat": 19.1756765,
+  "lon": 72.9425569,
+  "tags": {
+    "construction": "stop",
+    "name": "Mulund Fire Station",
+    "public_transport": "stop_position",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 9130240849,
+  "lat": 19.2844744,
+  "lon": 72.8708545,
+  "tags": {
+    "construction": "station",
+    "name": "Sai Baba Nagar Station",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 9130240857,
+  "lat": 19.2950511,
+  "lon": 72.8537938,
+  "tags": {
+    "construction": "station",
+    "name": "Shaheed Bhagat Singh Garden Station",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 9132436353,
+  "lat": 18.9473586,
+  "lon": 72.8337336,
+  "tags": {
+    "name": "Crawford Market",
+    "proposed": "station",
+    "railway": "proposed"
+  }
+},
+{
+  "type": "node",
+  "id": 9132436363,
+  "lat": 19.0725747,
+  "lon": 72.9023182,
+  "tags": {
+    "construction": "stop",
+    "name": "Garodia Nagar Station",
+    "public_transport": "stop_position",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 9132436365,
+  "lat": 19.0674050,
+  "lon": 72.8999983,
+  "tags": {
+    "construction": "stop",
+    "name": "Amar Mahal Junction Station",
+    "public_transport": "stop_position",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 9132436366,
+  "lat": 19.0566170,
+  "lon": 72.8875185,
+  "tags": {
+    "construction": "stop",
+    "name": "Siddhartha Colony EEH Station",
+    "public_transport": "stop_position",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 9132436411,
+  "lat": 19.0889805,
+  "lon": 72.9184404,
+  "tags": {
+    "construction": "stop",
+    "name": "Lakshmi Nagar Station",
+    "public_transport": "stop_position",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 9132708002,
+  "lat": 19.1397830,
+  "lon": 72.8459649,
+  "tags": {
+    "construction": "stop",
+    "name": "Momin Nagar Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9132708009,
+  "lat": 19.1405068,
+  "lon": 72.8540075,
+  "tags": {
+    "construction": "stop",
+    "name": "JVLR Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9132708010,
+  "lat": 19.1392202,
+  "lon": 72.8618974,
+  "tags": {
+    "construction": "stop",
+    "name": "Majas Depot Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9132708011,
+  "lat": 19.1215921,
+  "lon": 72.8989663,
+  "tags": {
+    "construction": "stop",
+    "name": "Powai Udyan Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9132708012,
+  "lat": 19.1242338,
+  "lon": 72.9137395,
+  "tags": {
+    "construction": "stop",
+    "name": "IIT Powai Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 9392521746,
+  "lat": 19.2354780,
+  "lon": 72.9712987,
+  "tags": {
+    "name": "Manpada",
+    "network": "Thane Ring Metro",
+    "opening_date": "2029",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 10244200822,
+  "lat": 18.9985221,
+  "lon": 72.8550464,
+  "tags": {
+    "name": "Sewri",
+    "proposed": "station",
+    "railway": "proposed"
+  }
+},
+{
+  "type": "node",
+  "id": 10244200828,
+  "lat": 18.9815598,
+  "lon": 72.8501568,
+  "tags": {
+    "name": "Coal Bunder",
+    "proposed": "station",
+    "railway": "proposed"
+  }
+},
+{
+  "type": "node",
+  "id": 10299481473,
+  "lat": 19.2950958,
+  "lon": 72.8537908,
+  "tags": {
+    "construction": "station",
+    "name": "Shaheed Bhagat Singh Garden Station",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 10299481681,
+  "lat": 19.2937250,
+  "lon": 72.8603681,
+  "tags": {
+    "construction": "station",
+    "name": "Meditya Nagar Station",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 10299481683,
+  "lat": 19.2845152,
+  "lon": 72.8708839,
+  "tags": {
+    "construction": "station",
+    "name": "Sai Baba Nagar Station",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 12219566476,
+  "lat": 19.1406986,
+  "lon": 72.8271846,
+  "tags": {
+    "construction": "stop",
+    "name": "Lokhandwala Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12219566486,
+  "lat": 19.1418420,
+  "lon": 72.8336123,
+  "tags": {
+    "construction": "stop",
+    "name": "Adarsh Nagar Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12219587411,
+  "lat": 19.1398313,
+  "lon": 72.8459716,
+  "tags": {
+    "construction": "stop",
+    "name": "Momin Nagar Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12219587427,
+  "lat": 19.1405541,
+  "lon": 72.8539952,
+  "tags": {
+    "construction": "stop",
+    "name": "JVLR Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12219587441,
+  "lat": 19.1392678,
+  "lon": 72.8619080,
+  "tags": {
+    "construction": "stop",
+    "name": "Majas Depot Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12219587475,
+  "lat": 19.1334972,
+  "lon": 72.8747294,
+  "tags": {
+    "construction": "stop",
+    "name": "Mahakali Caves Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12219587493,
+  "lat": 19.1294120,
+  "lon": 72.8826469,
+  "tags": {
+    "construction": "stop",
+    "name": "SEEPZ Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12219587511,
+  "lat": 19.1262483,
+  "lon": 72.8905372,
+  "tags": {
+    "construction": "stop",
+    "name": "Saki Vihar Road Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12219587528,
+  "lat": 19.1216096,
+  "lon": 72.8990144,
+  "tags": {
+    "construction": "stop",
+    "name": "Powai Udyan Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12219587550,
+  "lat": 19.1200529,
+  "lon": 72.9059473,
+  "tags": {
+    "construction": "stop",
+    "name": "Powai Lake Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12219587586,
+  "lat": 19.1242806,
+  "lon": 72.9137252,
+  "tags": {
+    "construction": "stop",
+    "name": "IIT Powai Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12219587638,
+  "lat": 19.1254396,
+  "lon": 72.9252587,
+  "tags": {
+    "construction": "stop",
+    "name": "Kanjurmarg Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12219587647,
+  "lat": 19.1247773,
+  "lon": 72.9364791,
+  "tags": {
+    "construction": "stop",
+    "name": "Vikhroli Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12219587659,
+  "lat": 19.1436925,
+  "lon": 72.8197506,
+  "tags": {
+    "construction": "stop",
+    "name": "Swami Samarth Nagar Station",
+    "public_transport": "stop_position",
+    "railway": "construction",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12238582458,
+  "lat": 19.2505685,
+  "lon": 72.9732191,
+  "tags": {
+    "construction": "stop",
+    "name": "Dongripada Station",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 12238602996,
+  "lat": 19.1387605,
+  "lon": 72.9307295,
+  "tags": {
+    "construction": "stop",
+    "name": "Bhandup Mahapalika Station",
+    "public_transport": "stop_position",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 12238603060,
+  "lat": 19.2012863,
+  "lon": 72.9650295,
+  "tags": {
+    "construction": "stop",
+    "name": "Mahapalika Bhavan Marg Station",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 12238603132,
+  "lat": 19.1329084,
+  "lon": 72.9276763,
+  "tags": {
+    "construction": "stop",
+    "name": "Naval Housing Station",
+    "public_transport": "stop_position",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 12238603158,
+  "lat": 19.2674114,
+  "lon": 72.9666011,
+  "tags": {
+    "construction": "stop",
+    "name": "Kasarvadavli Station",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 12238603249,
+  "lat": 19.2383551,
+  "lon": 72.9755613,
+  "tags": {
+    "construction": "stop",
+    "name": "Tikujiniwadi Station",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 12238603329,
+  "lat": 19.1757013,
+  "lon": 72.9425157,
+  "tags": {
+    "construction": "stop",
+    "name": "Mulund Fire Station",
+    "public_transport": "stop_position",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 12238603344,
+  "lat": 19.1662180,
+  "lon": 72.9383850,
+  "tags": {
+    "construction": "stop",
+    "name": "Sonapur Station",
+    "public_transport": "stop_position",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 12238603355,
+  "lat": 19.0674207,
+  "lon": 72.8999524,
+  "tags": {
+    "construction": "stop",
+    "name": "Amar Mahal Junction Station",
+    "public_transport": "stop_position",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 12238603600,
+  "lat": 19.1834798,
+  "lon": 72.9508296,
+  "tags": {
+    "construction": "stop",
+    "name": "Mulund Check Naka Station",
+    "public_transport": "stop_position",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 12238603734,
+  "lat": 19.0976602,
+  "lon": 72.9161659,
+  "tags": {
+    "construction": "stop",
+    "name": "Shreyas Cinema Station",
+    "public_transport": "stop_position",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 12238603738,
+  "lat": 19.0889914,
+  "lon": 72.9183928,
+  "tags": {
+    "construction": "stop",
+    "name": "Lakshmi Nagar Station",
+    "public_transport": "stop_position",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 12238603749,
+  "lat": 19.2115902,
+  "lon": 72.9757352,
+  "tags": {
+    "construction": "stop",
+    "name": "Majiwada Station",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 12238603766,
+  "lat": 19.2587098,
+  "lon": 72.9700880,
+  "tags": {
+    "construction": "stop",
+    "name": "Vijay Garden Station",
+    "public_transport": "stop_position",
+    "public_transport:version": "2",
+    "railway": "construction"
+  }
+},
+{
+  "type": "node",
+  "id": 12902033343,
+  "lat": 19.0185254,
+  "lon": 72.8659895,
+  "tags": {
+    "name": "Ganesh Nagar",
+    "proposed": "station",
+    "railway": "proposed"
+  }
+},
+{
+  "type": "node",
+  "id": 12902033350,
+  "lat": 19.0291234,
+  "lon": 72.8688600,
+  "tags": {
+    "name": "CGS Colony",
+    "proposed": "station",
+    "railway": "proposed"
+  }
+},
+{
+  "type": "node",
+  "id": 12902033364,
+  "lat": 19.0394842,
+  "lon": 72.8762297,
+  "tags": {
+    "name": "Wadala Depot",
+    "proposed": "station",
+    "railway": "proposed"
+  }
+},
+{
+  "type": "node",
+  "id": 12902121976,
+  "lat": 18.9756113,
+  "lon": 72.8334448,
+  "tags": {
+    "name": "Byculla",
+    "proposed": "station",
+    "railway": "proposed"
+  }
+},
+{
+  "type": "node",
+  "id": 12902121982,
+  "lat": 18.9573144,
+  "lon": 72.8318623,
+  "tags": {
+    "name": "Bhendi Bazaar",
+    "proposed": "station",
+    "railway": "proposed"
+  }
+},
+{
+  "type": "node",
+  "id": 12902121991,
+  "lat": 18.9321217,
+  "lon": 72.8342863,
+  "tags": {
+    "name": "Horniman Circle",
+    "proposed": "station",
+    "railway": "proposed"
+  }
+},
+{
+  "type": "node",
+  "id": 12902121997,
+  "lat": 18.9252600,
+  "lon": 72.8326095,
+  "tags": {
+    "name": "SMP Circle",
+    "proposed": "station",
+    "railway": "proposed"
+  }
+},
+{
+  "type": "node",
+  "id": 12902183202,
+  "lat": 18.9902824,
+  "lon": 72.8543197,
+  "tags": {
+    "name": "Hay Bunder",
+    "proposed": "station",
+    "railway": "proposed"
+  }
+},
+{
+  "type": "node",
+  "id": 13620907738,
+  "lat": 19.1962836,
+  "lon": 72.9492497,
+  "tags": {
+    "name": "Wagle Circle",
+    "network": "Thane  Ring Metro",
+    "opening_date": "2029",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13620907750,
+  "lat": 19.2173904,
+  "lon": 72.9541706,
+  "tags": {
+    "name": "Shivai Nagar",
+    "network": "Thane Ring Metro",
+    "opening_date": "2029",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13620907772,
+  "lat": 19.2211866,
+  "lon": 72.9593918,
+  "tags": {
+    "name": "Neelkanth Terminal",
+    "network": "Thane Ring Metro",
+    "opening_date": "2029",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13620907777,
+  "lat": 19.2191133,
+  "lon": 72.9675181,
+  "tags": {
+    "name": "Ghandi Nagar",
+    "network": "Thane Ring Metro",
+    "opening_date": "2029",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13620913301,
+  "lat": 19.2291679,
+  "lon": 72.9698844,
+  "tags": {
+    "name": "Dr. Kashinath Ghanekar Natyagruha",
+    "network": "Thane Ring Metro",
+    "opening_date": "2029",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13621005336,
+  "lat": 19.2487708,
+  "lon": 72.9747318,
+  "tags": {
+    "name": "Dongripada",
+    "network": "Thane Ring Metro",
+    "opening_date": "2029",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13621005346,
+  "lat": 19.2554671,
+  "lon": 72.9735187,
+  "tags": {
+    "name": "Vijay Nagari",
+    "network": "Thane Ring Metro",
+    "opening_date": "2029",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13621005380,
+  "lat": 19.2639208,
+  "lon": 72.9794268,
+  "tags": {
+    "name": "Waghbil",
+    "network": "Thane Ring Metro",
+    "opening_date": "2029",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13621005391,
+  "lat": 19.2624949,
+  "lon": 72.9884092,
+  "tags": {
+    "name": "Waterfront",
+    "network": "Thane Ring Metro",
+    "opening_date": "2029",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13621027119,
+  "lat": 19.2473010,
+  "lon": 72.9831819,
+  "tags": {
+    "name": "Patlipada",
+    "network": "Thane Ring Metro",
+    "opening_date": "2029",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13650652440,
+  "lat": 18.5902162,
+  "lon": 73.9978013,
+  "tags": {
+    "layer": "2",
+    "name": "Bakori Phata",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13650652498,
+  "lat": 18.5826643,
+  "lon": 73.9887086,
+  "tags": {
+    "layer": "2",
+    "name": "Siddharth Nagar",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13650652499,
+  "lat": 18.5806100,
+  "lon": 73.9836486,
+  "tags": {
+    "layer": "2",
+    "name": "Wagholi",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13650652500,
+  "lat": 18.5806958,
+  "lon": 73.9789990,
+  "tags": {
+    "layer": "2",
+    "name": "Wagheshwar Temple",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13650679301,
+  "lat": 18.5756576,
+  "lon": 73.9626406,
+  "tags": {
+    "layer": "2",
+    "name": "Upper Kharadi Rd",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13650679302,
+  "lat": 18.5726091,
+  "lon": 73.9559404,
+  "tags": {
+    "layer": "2",
+    "name": "Ubale Nagar",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13650679303,
+  "lat": 18.5670968,
+  "lon": 73.9468370,
+  "tags": {
+    "layer": "2",
+    "name": "Tuljabhavani Nagar",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13650679304,
+  "lat": 18.5623586,
+  "lon": 73.9378087,
+  "tags": {
+    "layer": "2",
+    "name": "Kharadi Bypass",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13651468960,
+  "lat": 18.5628640,
+  "lon": 73.9284008,
+  "tags": {
+    "layer": "2",
+    "name": "Somnath Nagar",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13651468961,
+  "lat": 18.5614823,
+  "lon": 73.9203877,
+  "tags": {
+    "layer": "2",
+    "name": "Viman Nagar",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13652090804,
+  "lat": 18.5026032,
+  "lon": 73.8178150,
+  "tags": {
+    "layer": "2",
+    "name": "Karve Putala",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13652090805,
+  "lat": 18.5054876,
+  "lon": 73.8242845,
+  "tags": {
+    "layer": "2",
+    "name": "Nal Stop",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13652090836,
+  "lat": 18.4959875,
+  "lon": 73.8134796,
+  "tags": {
+    "layer": "2",
+    "name": "Dahanukar Colony",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13652090882,
+  "lat": 18.4880762,
+  "lon": 73.8134605,
+  "tags": {
+    "layer": "2",
+    "name": "Karve Nagar",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13652090903,
+  "lat": 18.4799601,
+  "lon": 73.8055078,
+  "tags": {
+    "layer": "2",
+    "name": "Warje",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13652090927,
+  "lat": 18.4726158,
+  "lon": 73.8113846,
+  "tags": {
+    "layer": "2",
+    "name": "Daulat Nagar",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13652090944,
+  "lat": 18.4671378,
+  "lon": 73.8179520,
+  "tags": {
+    "layer": "2",
+    "name": "Manik Baug",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13654853657,
+  "lat": 18.4549986,
+  "lon": 73.7971430,
+  "tags": {
+    "layer": "2",
+    "name": "Dalvewadi",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13654853672,
+  "lat": 18.4571846,
+  "lon": 73.8028688,
+  "tags": {
+    "layer": "2",
+    "name": "Nanded City",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13654853683,
+  "lat": 18.4589198,
+  "lon": 73.8093956,
+  "tags": {
+    "layer": "2",
+    "name": "Dhayari Phata",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13654857836,
+  "lat": 18.4810557,
+  "lon": 73.8258017,
+  "tags": {
+    "layer": "2",
+    "name": "Hingane Chowk",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13654857857,
+  "lat": 18.4881031,
+  "lon": 73.8293979,
+  "tags": {
+    "layer": "2",
+    "name": "Rajaram Pul",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13654857874,
+  "lat": 18.4948750,
+  "lon": 73.8370477,
+  "tags": {
+    "layer": "2",
+    "name": "Deshpande Udyan",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13654857891,
+  "lat": 18.5008404,
+  "lon": 73.8451802,
+  "tags": {
+    "layer": "2",
+    "name": "Dandekar Pul",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13654857952,
+  "lat": 18.5007043,
+  "lon": 73.8568717,
+  "tags": {
+    "layer": "2",
+    "name": "Swargate North",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13654973659,
+  "lat": 18.5076364,
+  "lon": 73.7866978,
+  "tags": {
+    "layer": "2",
+    "name": "Chandani Chowk",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13659087340,
+  "lat": 18.4877859,
+  "lon": 73.8575177,
+  "tags": {
+    "layer": "-2",
+    "name": "Market Yard",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13659087365,
+  "lat": 18.4752329,
+  "lon": 73.8562486,
+  "tags": {
+    "layer": "-2",
+    "name": "Bibwewadi",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13659087385,
+  "lat": 18.4610069,
+  "lon": 73.8580973,
+  "tags": {
+    "layer": "-2",
+    "name": "Padmavati",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13659087397,
+  "lat": 18.4532267,
+  "lon": 73.8583793,
+  "tags": {
+    "layer": "-2",
+    "name": "Balaji Nagar",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13659088612,
+  "lat": 18.4465735,
+  "lon": 73.8590089,
+  "tags": {
+    "layer": "-2",
+    "name": "Katraj",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13661246197,
+  "lat": 18.5014581,
+  "lon": 73.8696161,
+  "tags": {
+    "layer": "2",
+    "name": "Seven Loves Chowk",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13661267008,
+  "lat": 18.5027557,
+  "lon": 73.8783694,
+  "tags": {
+    "layer": "2",
+    "name": "Pune Cantonment Board",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13661267047,
+  "lat": 18.5064646,
+  "lon": 73.8893882,
+  "tags": {
+    "layer": "2",
+    "name": "Race Course",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13661267070,
+  "lat": 18.5065470,
+  "lon": 73.9005261,
+  "tags": {
+    "layer": "2",
+    "name": "Fatima Nagar",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 13661267081,
+  "lat": 18.5063079,
+  "lon": 73.9116278,
+  "tags": {
+    "layer": "2",
+    "name": "Ramtekadi",
+    "network": "Pune Metro",
+    "network:wikidata": "Q3595697",
+    "operator": "Maha Metro",
+    "proposed:railway": "station",
+    "public_transport": "station",
+    "railway": "proposed",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 377611180,
+  "center": {
+    "lat": 19.2891997,
+    "lon": 72.8654666
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "no",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Line 9",
+    "name:en": "Line 9",
+    "name:hi": "लाईन ९",
+    "name:mr": "लाईन ९",
+    "opening_date": "2026-12",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 538683349,
+  "center": {
+    "lat": 19.0423219,
+    "lon": 73.1073928
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "2",
+    "name": "Navi Mumbai Metro Line 1 - Stage 2",
+    "railway": "construction",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 539399937,
+  "center": {
+    "lat": 19.1314981,
+    "lon": 72.8806198
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "5",
+    "name": "Line 6",
+    "railway": "construction",
+    "tracks": "2",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 540125933,
+  "center": {
+    "lat": 19.1279660,
+    "lon": 72.9276234
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "maxheight": "24",
+    "name": "Line 4",
+    "opening_date": "2027-11",
+    "railway": "construction",
+    "usage": "main",
+    "voltage": "25000",
+    "wikidata": "Q30599218",
+    "wikipedia": "en:Line 4 (Mumbai Metro)"
+  }
+},
+{
+  "type": "way",
+  "id": 540125947,
+  "center": {
+    "lat": 18.9834097,
+    "lon": 72.8536792
+  },
+  "tags": {
+    "construction": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "-1",
+    "name": "Line 11",
+    "proposed:railway": "subway",
+    "railway": "proposed",
+    "tracks": "2",
+    "tunnel": "yes",
+    "type": "Elevated",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 540158373,
+  "center": {
+    "lat": 19.2891633,
+    "lon": 72.8654323
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "no",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Line 9",
+    "name:en": "Line 9",
+    "name:hi": "लाईन ९",
+    "name:mr": "लाईन ९",
+    "opening_date": "2026-12",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 569671881,
+  "center": {
+    "lat": 19.1129443,
+    "lon": 73.1719706
+  },
+  "tags": {
+    "construction": "funicular",
+    "name": "Malanggad Funicular Railway",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 586117038,
+  "center": {
+    "lat": 18.5752903,
+    "lon": 73.6910236
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "service": "spur",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 610015450,
+  "center": {
+    "lat": 19.0422965,
+    "lon": 73.1073463
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "2",
+    "name": "Navi Mumbai Metro Line 1 - Stage 2",
+    "railway": "construction",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 611267941,
+  "center": {
+    "lat": 19.2579294,
+    "lon": 73.0591104
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Line-5: Thane - Bhiwandi - Kalyan",
+    "railway": "construction",
+    "tracks": "2",
+    "usage": "main",
+    "voltage": "25000",
+    "wikidata": "Q30603098",
+    "wikipedia": "en:Line 5 (Mumbai Metro)"
+  }
+},
+{
+  "type": "way",
+  "id": 626938775,
+  "center": {
+    "lat": 19.0677245,
+    "lon": 72.8648464
+  },
+  "tags": {
+    "addr:city": "Mumbai",
+    "building": "yes",
+    "construction": "train_station",
+    "internet_access": "yes",
+    "layer": "-1",
+    "name": "Mumbai BKC",
+    "public_transport": "station",
+    "railway": "construction",
+    "source": "Bullet Train India Mumbai-Ahmedabad Hi-Speed Rail Corridor",
+    "train": "yes",
+    "wikidata": "Q7260132",
+    "wikipedia": "en:Mumbai–Ahmedabad high-speed rail corridor"
+  }
+},
+{
+  "type": "way",
+  "id": 810813950,
+  "center": {
+    "lat": 18.9371244,
+    "lon": 73.2394117
+  },
+  "tags": {
+    "construction": "rail",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1676",
+    "name": "Panvel Junction - Karjat Suburban Corridor",
+    "railway": "construction",
+    "railway:traffic_mode": "passenger",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 810813951,
+  "center": {
+    "lat": 18.9370539,
+    "lon": 73.2394476
+  },
+  "tags": {
+    "construction": "rail",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1676",
+    "name": "Panvel Junction - Karjat Suburban Corridor",
+    "railway": "construction",
+    "railway:traffic_mode": "passenger",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 911424044,
+  "center": {
+    "lat": 19.2218633,
+    "lon": 72.9696887
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Thane Ring Metro",
+    "opening_date": "2029",
+    "operator": "MMRCL",
+    "proposed": "subway",
+    "proposed:bridge": "viaduct",
+    "proposed:electrified": "yes",
+    "proposed:railway": "subway",
+    "railway": "proposed",
+    "website": "https://thanemetrorail.com/route-map",
+    "wikidata": "Q61050052",
+    "wikipedia": "en:Thane Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 916108434,
+  "center": {
+    "lat": 19.1028665,
+    "lon": 72.9530198
+  },
+  "tags": {
+    "check_date": "2023-04-12",
+    "construction": "rail",
+    "construction:electrified": "contact_line",
+    "construction:frequency": "50",
+    "construction:railway": "rail",
+    "construction:voltage": "25000",
+    "gauge": "1435",
+    "highspeed": "yes",
+    "layer": "1",
+    "maxspeed": "320",
+    "name": "Mumbai–Ahmedabad high-speed rail (under construction)",
+    "name:de": "Schnellfahrstrecke Mumbai–Ahmedabad",
+    "name:en": "Mumbai–Ahmedabad High-speed Rail",
+    "name:zh": "孟买–艾哈迈达巴德高铁",
+    "name:zh-Hant": "孟買–亞美達巴德高鐵",
+    "passenger_lines": "2",
+    "railway": "construction",
+    "start_date": "2027",
+    "tunnel": "yes",
+    "usage": "main",
+    "wikipedia": "en:Mumbai–Ahmedabad high-speed rail corridor"
+  }
+},
+{
+  "type": "way",
+  "id": 916108435,
+  "center": {
+    "lat": 19.1028987,
+    "lon": 72.9529862
+  },
+  "tags": {
+    "check_date": "2023-04-12",
+    "construction": "rail",
+    "construction:electrified": "contact_line",
+    "construction:frequency": "50",
+    "construction:railway": "rail",
+    "construction:voltage": "25000",
+    "gauge": "1435",
+    "highspeed": "yes",
+    "layer": "1",
+    "maxspeed": "320",
+    "name": "Mumbai–Ahmedabad high-speed rail (under construction)",
+    "name:de": "Schnellfahrstrecke Mumbai–Ahmedabad",
+    "name:en": "Mumbai–Ahmedabad High-speed Rail",
+    "name:zh": "孟买–艾哈迈达巴德高铁",
+    "name:zh-Hant": "孟買–亞美達巴德高鐵",
+    "passenger_lines": "2",
+    "railway": "construction",
+    "source": "bing",
+    "start_date": "2027",
+    "tunnel": "yes",
+    "usage": "main",
+    "wikipedia": "en:Mumbai–Ahmedabad high-speed rail corridor"
+  }
+},
+{
+  "type": "way",
+  "id": 917145209,
+  "center": {
+    "lat": 19.9657106,
+    "lon": 72.7506310
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145210,
+  "center": {
+    "lat": 19.9657261,
+    "lon": 72.7506926
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145211,
+  "center": {
+    "lat": 19.4706434,
+    "lon": 72.8148447
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145212,
+  "center": {
+    "lat": 19.4841250,
+    "lon": 72.8190987
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145213,
+  "center": {
+    "lat": 19.4906902,
+    "lon": 72.8263017
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145214,
+  "center": {
+    "lat": 19.4973030,
+    "lon": 72.8335502
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145215,
+  "center": {
+    "lat": 19.5018044,
+    "lon": 72.8384812
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145216,
+  "center": {
+    "lat": 19.5063691,
+    "lon": 72.8434536
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145217,
+  "center": {
+    "lat": 19.5092874,
+    "lon": 72.8456657
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145218,
+  "center": {
+    "lat": 19.5122617,
+    "lon": 72.8477924
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145219,
+  "center": {
+    "lat": 19.5176737,
+    "lon": 72.8490983
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145220,
+  "center": {
+    "lat": 19.5245546,
+    "lon": 72.8503438
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145221,
+  "center": {
+    "lat": 19.5315505,
+    "lon": 72.8507139
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145222,
+  "center": {
+    "lat": 19.5389257,
+    "lon": 72.8511204
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145223,
+  "center": {
+    "lat": 19.5536298,
+    "lon": 72.8427035
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145224,
+  "center": {
+    "lat": 19.5663012,
+    "lon": 72.8340347
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145225,
+  "center": {
+    "lat": 19.5676843,
+    "lon": 72.8324089
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145226,
+  "center": {
+    "lat": 19.5691238,
+    "lon": 72.8307212
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145227,
+  "center": {
+    "lat": 19.5715917,
+    "lon": 72.8277508
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145228,
+  "center": {
+    "lat": 19.5981143,
+    "lon": 72.8082086
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145229,
+  "center": {
+    "lat": 19.6225753,
+    "lon": 72.7913872
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145230,
+  "center": {
+    "lat": 19.6233125,
+    "lon": 72.7911706
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145231,
+  "center": {
+    "lat": 19.6281223,
+    "lon": 72.7899307
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145232,
+  "center": {
+    "lat": 19.6324984,
+    "lon": 72.7888243
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145233,
+  "center": {
+    "lat": 19.6331971,
+    "lon": 72.7886384
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145234,
+  "center": {
+    "lat": 19.6382822,
+    "lon": 72.7873135
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145235,
+  "center": {
+    "lat": 19.6582194,
+    "lon": 72.7821633
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145236,
+  "center": {
+    "lat": 19.6739042,
+    "lon": 72.7781174
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145237,
+  "center": {
+    "lat": 19.6770580,
+    "lon": 72.7772887
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145238,
+  "center": {
+    "lat": 19.6801812,
+    "lon": 72.7764685
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145239,
+  "center": {
+    "lat": 19.6834070,
+    "lon": 72.7756096
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145240,
+  "center": {
+    "lat": 19.6866225,
+    "lon": 72.7747562
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145241,
+  "center": {
+    "lat": 19.7041669,
+    "lon": 72.7702985
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145242,
+  "center": {
+    "lat": 19.7217681,
+    "lon": 72.7658150
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145243,
+  "center": {
+    "lat": 19.7265492,
+    "lon": 72.7645857
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145244,
+  "center": {
+    "lat": 19.7312261,
+    "lon": 72.7633928
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145245,
+  "center": {
+    "lat": 19.7315932,
+    "lon": 72.7633025
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145246,
+  "center": {
+    "lat": 19.7320138,
+    "lon": 72.7631914
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145247,
+  "center": {
+    "lat": 19.7388341,
+    "lon": 72.7617660
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145248,
+  "center": {
+    "lat": 19.7455761,
+    "lon": 72.7603808
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145249,
+  "center": {
+    "lat": 19.7471510,
+    "lon": 72.7603097
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145250,
+  "center": {
+    "lat": 19.7488157,
+    "lon": 72.7602438
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145251,
+  "center": {
+    "lat": 19.7578348,
+    "lon": 72.7604366
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145252,
+  "center": {
+    "lat": 19.7668287,
+    "lon": 72.7606624
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145253,
+  "center": {
+    "lat": 19.7706216,
+    "lon": 72.7607588
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145254,
+  "center": {
+    "lat": 19.7743882,
+    "lon": 72.7608547
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145255,
+  "center": {
+    "lat": 19.7763066,
+    "lon": 72.7609038
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145256,
+  "center": {
+    "lat": 19.7783678,
+    "lon": 72.7609555
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145257,
+  "center": {
+    "lat": 19.8335517,
+    "lon": 72.7621430
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145258,
+  "center": {
+    "lat": 19.8885742,
+    "lon": 72.7633273
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145259,
+  "center": {
+    "lat": 19.8962688,
+    "lon": 72.7634719
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145260,
+  "center": {
+    "lat": 19.9041419,
+    "lon": 72.7636230
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145261,
+  "center": {
+    "lat": 19.9121701,
+    "lon": 72.7637180
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145262,
+  "center": {
+    "lat": 19.9200777,
+    "lon": 72.7635752
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145263,
+  "center": {
+    "lat": 19.9310304,
+    "lon": 72.7605816
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145264,
+  "center": {
+    "lat": 19.9420687,
+    "lon": 72.7575392
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145265,
+  "center": {
+    "lat": 19.9526667,
+    "lon": 72.7544694
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145266,
+  "center": {
+    "lat": 19.9632079,
+    "lon": 72.7514144
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145267,
+  "center": {
+    "lat": 19.9638323,
+    "lon": 72.7512378
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145268,
+  "center": {
+    "lat": 19.4706281,
+    "lon": 72.8148999
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145269,
+  "center": {
+    "lat": 19.4840836,
+    "lon": 72.8191450
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145270,
+  "center": {
+    "lat": 19.4906478,
+    "lon": 72.8263470
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145271,
+  "center": {
+    "lat": 19.4972599,
+    "lon": 72.8335947
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145272,
+  "center": {
+    "lat": 19.5017619,
+    "lon": 72.8385263
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145273,
+  "center": {
+    "lat": 19.5063281,
+    "lon": 72.8435003
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145274,
+  "center": {
+    "lat": 19.9638477,
+    "lon": 72.7512995
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145275,
+  "center": {
+    "lat": 19.9632232,
+    "lon": 72.7514761
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145276,
+  "center": {
+    "lat": 19.9526822,
+    "lon": 72.7545310
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145277,
+  "center": {
+    "lat": 19.9420842,
+    "lon": 72.7576008
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145278,
+  "center": {
+    "lat": 19.9310423,
+    "lon": 72.7606440
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145279,
+  "center": {
+    "lat": 19.9200849,
+    "lon": 72.7636385
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145280,
+  "center": {
+    "lat": 19.9121723,
+    "lon": 72.7637816
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145281,
+  "center": {
+    "lat": 19.9041404,
+    "lon": 72.7636868
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145282,
+  "center": {
+    "lat": 19.8962676,
+    "lon": 72.7635358
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145283,
+  "center": {
+    "lat": 19.8885736,
+    "lon": 72.7633912
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145284,
+  "center": {
+    "lat": 19.8335508,
+    "lon": 72.7622068
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145285,
+  "center": {
+    "lat": 19.7783665,
+    "lon": 72.7610193
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145286,
+  "center": {
+    "lat": 19.7763053,
+    "lon": 72.7609676
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145287,
+  "center": {
+    "lat": 19.7743870,
+    "lon": 72.7609185
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145288,
+  "center": {
+    "lat": 19.7706204,
+    "lon": 72.7608226
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145289,
+  "center": {
+    "lat": 19.7668275,
+    "lon": 72.7607261
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145290,
+  "center": {
+    "lat": 19.7578347,
+    "lon": 72.7605004
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145291,
+  "center": {
+    "lat": 19.7488167,
+    "lon": 72.7603077
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145292,
+  "center": {
+    "lat": 19.7471534,
+    "lon": 72.7603735
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145293,
+  "center": {
+    "lat": 19.7455804,
+    "lon": 72.7604445
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145294,
+  "center": {
+    "lat": 19.7388440,
+    "lon": 72.7618287
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145295,
+  "center": {
+    "lat": 19.7320289,
+    "lon": 72.7632531
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145296,
+  "center": {
+    "lat": 19.7316076,
+    "lon": 72.7633645
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145297,
+  "center": {
+    "lat": 19.7312401,
+    "lon": 72.7634549
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145298,
+  "center": {
+    "lat": 19.7265632,
+    "lon": 72.7646477
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145299,
+  "center": {
+    "lat": 19.7217818,
+    "lon": 72.7658771
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145300,
+  "center": {
+    "lat": 19.7041811,
+    "lon": 72.7703605
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145301,
+  "center": {
+    "lat": 19.6866372,
+    "lon": 72.7748181
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145302,
+  "center": {
+    "lat": 19.6834215,
+    "lon": 72.7756715
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145303,
+  "center": {
+    "lat": 19.6801957,
+    "lon": 72.7765304
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145304,
+  "center": {
+    "lat": 19.6770725,
+    "lon": 72.7773506
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145305,
+  "center": {
+    "lat": 19.6739187,
+    "lon": 72.7781793
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145306,
+  "center": {
+    "lat": 19.6582334,
+    "lon": 72.7822254
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145307,
+  "center": {
+    "lat": 19.6382962,
+    "lon": 72.7873755
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145308,
+  "center": {
+    "lat": 19.6332114,
+    "lon": 72.7887003
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145309,
+  "center": {
+    "lat": 19.6325138,
+    "lon": 72.7888860
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145310,
+  "center": {
+    "lat": 19.5092539,
+    "lon": 72.8457179
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145311,
+  "center": {
+    "lat": 19.5122363,
+    "lon": 72.8478502
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145312,
+  "center": {
+    "lat": 19.6281379,
+    "lon": 72.7899924
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145313,
+  "center": {
+    "lat": 19.6233264,
+    "lon": 72.7912371
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145314,
+  "center": {
+    "lat": 19.6225956,
+    "lon": 72.7914561
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145315,
+  "center": {
+    "lat": 19.5981502,
+    "lon": 72.8082634
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145316,
+  "center": {
+    "lat": 19.5716364,
+    "lon": 72.8277935
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145317,
+  "center": {
+    "lat": 19.5691686,
+    "lon": 72.8307639
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145318,
+  "center": {
+    "lat": 19.5677288,
+    "lon": 72.8324517
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145319,
+  "center": {
+    "lat": 19.5663456,
+    "lon": 72.8340777
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145320,
+  "center": {
+    "lat": 19.5536509,
+    "lon": 72.8427569
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145321,
+  "center": {
+    "lat": 19.5389231,
+    "lon": 72.8511841
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145322,
+  "center": {
+    "lat": 19.5315474,
+    "lon": 72.8507776
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145323,
+  "center": {
+    "lat": 19.5245520,
+    "lon": 72.8504075
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 917145324,
+  "center": {
+    "lat": 19.5176606,
+    "lon": 72.8491594
+  },
+  "tags": {
+    "construction": "rail",
+    "name": "Virar - Dahanu Road Quadrupling",
+    "railway": "construction"
+  }
+},
+{
+  "type": "way",
+  "id": 933209259,
+  "center": {
+    "lat": 19.2796681,
+    "lon": 72.9518852
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Line 4A",
+    "opening_date": "2026-04",
+    "railway": "construction",
+    "usage": "main",
+    "voltage": "25000",
+    "wikidata": "Q30599218",
+    "wikipedia": "en:Line 4 (Mumbai Metro)"
+  }
+},
+{
+  "type": "way",
+  "id": 987942388,
+  "center": {
+    "lat": 19.1021299,
+    "lon": 72.8624392
+  },
+  "tags": {
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "-3",
+    "name": "Line 7A",
+    "opening_date": "2026-12",
+    "railway": "construction",
+    "tunnel": "yes",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 988036000,
+  "center": {
+    "lat": 19.2794082,
+    "lon": 72.9127007
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Line 10",
+    "proposed": "subway",
+    "proposed:railway": "subway",
+    "railway": "proposed",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 990567493,
+  "center": {
+    "lat": 19.0645664,
+    "lon": 72.8694983
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "2",
+    "name": "Dahisar (W) to Mandale Metro (Line-2)",
+    "opening_date": "2027-12",
+    "railway": "construction",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 990567494,
+  "center": {
+    "lat": 19.0645989,
+    "lon": 72.8694297
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "2",
+    "name": "Dahisar (W) to Mandale Metro (Line-2)",
+    "opening_date": "2027-12",
+    "railway": "construction",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1085543750,
+  "center": {
+    "lat": 19.0862532,
+    "lon": 72.8384253
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "check_date": "2026-03-15",
+    "construction": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Dahisar (W) to Mandale Metro (Line-2)",
+    "railway": "construction",
+    "tracks": "2",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1118095503,
+  "center": {
+    "lat": 19.0647687,
+    "lon": 72.8418790
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "check_date": "2026-03-15",
+    "construction": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Dahisar (W) to Mandale Metro (Line-2)",
+    "operator": "MMRDA",
+    "railway": "construction",
+    "tracks": "2",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1125530001,
+  "center": {
+    "lat": 19.7421475,
+    "lon": 72.9276203
+  },
+  "tags": {
+    "bridge": "yes",
+    "check_date": "2024-08-18",
+    "construction": "rail",
+    "construction:electrified": "contact_line",
+    "construction:frequency": "50",
+    "construction:railway": "rail",
+    "construction:voltage": "25000",
+    "gauge": "1435",
+    "highspeed": "yes",
+    "layer": "1",
+    "maxspeed": "320",
+    "name": "Mumbai–Ahmedabad high-speed rail (under construction)",
+    "name:de": "Schnellfahrstrecke Mumbai–Ahmedabad",
+    "name:en": "Mumbai–Ahmedabad High-speed Rail",
+    "name:zh": "孟买–艾哈迈达巴德高铁",
+    "name:zh-Hant": "孟買–亞美達巴德高鐵",
+    "passenger_lines": "2",
+    "railway": "construction",
+    "start_date": "2027",
+    "usage": "main",
+    "wikipedia": "en:Mumbai–Ahmedabad high-speed rail corridor"
+  }
+},
+{
+  "type": "way",
+  "id": 1125530002,
+  "center": {
+    "lat": 19.7027431,
+    "lon": 72.9275715
+  },
+  "tags": {
+    "bridge": "yes",
+    "check_date": "2024-08-18",
+    "construction": "rail",
+    "construction:electrified": "contact_line",
+    "construction:frequency": "50",
+    "construction:railway": "rail",
+    "construction:voltage": "25000",
+    "gauge": "1435",
+    "highspeed": "yes",
+    "layer": "1",
+    "maxspeed": "320",
+    "name": "Mumbai–Ahmedabad high-speed rail (under construction)",
+    "name:de": "Schnellfahrstrecke Mumbai–Ahmedabad",
+    "name:en": "Mumbai–Ahmedabad High-speed Rail",
+    "name:zh": "孟买–艾哈迈达巴德高铁",
+    "name:zh-Hant": "孟買–亞美達巴德高鐵",
+    "passenger_lines": "2",
+    "railway": "construction",
+    "start_date": "2027",
+    "usage": "main",
+    "wikipedia": "en:Mumbai–Ahmedabad high-speed rail corridor"
+  }
+},
+{
+  "type": "way",
+  "id": 1133962083,
+  "center": {
+    "lat": 19.1005739,
+    "lon": 72.8346819
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Dahisar (W) to Mandale Metro (Line-2)",
+    "operator": "MMRDA",
+    "railway": "construction",
+    "tracks": "2",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1161171315,
+  "center": {
+    "lat": 19.1913109,
+    "lon": 72.9987122
+  },
+  "tags": {
+    "name": "Airoli Kalva Elevated Link",
+    "proposed": "rail",
+    "railway": "proposed"
+  }
+},
+{
+  "type": "way",
+  "id": 1161171316,
+  "center": {
+    "lat": 19.1909702,
+    "lon": 72.9972142
+  },
+  "tags": {
+    "bridge": "yes",
+    "layer": "1",
+    "name": "Airoli Kalva Elevated Link",
+    "proposed": "rail",
+    "railway": "proposed"
+  }
+},
+{
+  "type": "way",
+  "id": 1161171317,
+  "center": {
+    "lat": 19.1884978,
+    "lon": 72.9963022
+  },
+  "tags": {
+    "name": "Airoli Kalva Elevated Link",
+    "proposed": "rail",
+    "railway": "proposed"
+  }
+},
+{
+  "type": "way",
+  "id": 1302818832,
+  "center": {
+    "lat": 18.9897280,
+    "lon": 73.1222869
+  },
+  "tags": {
+    "construction": "rail",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1676",
+    "name": "Panvel Junction - Karjat Suburban Corridor",
+    "railway": "construction",
+    "railway:traffic_mode": "passenger",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1302818833,
+  "center": {
+    "lat": 18.9880756,
+    "lon": 73.1238480
+  },
+  "tags": {
+    "construction": "rail",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1676",
+    "name": "Panvel Junction - Karjat Suburban Corridor",
+    "railway": "construction",
+    "railway:traffic_mode": "passenger",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1302818834,
+  "center": {
+    "lat": 18.9823004,
+    "lon": 73.1304262
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1676",
+    "layer": "1",
+    "name": "Panvel Junction - Karjat Suburban Corridor",
+    "railway": "construction",
+    "railway:traffic_mode": "passenger",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1302818835,
+  "center": {
+    "lat": 18.9823663,
+    "lon": 73.1304798
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1676",
+    "layer": "1",
+    "name": "Panvel Junction - Karjat Suburban Corridor",
+    "railway": "construction",
+    "railway:traffic_mode": "passenger",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1302818856,
+  "center": {
+    "lat": 18.9341992,
+    "lon": 73.3255807
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1676",
+    "layer": "1",
+    "name": "Panvel Junction - Karjat Suburban Corridor",
+    "railway": "construction",
+    "railway:traffic_mode": "passenger",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1302818857,
+  "center": {
+    "lat": 18.9341828,
+    "lon": 73.3255501
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1676",
+    "layer": "1",
+    "name": "Panvel Junction - Karjat Suburban Corridor",
+    "railway": "construction",
+    "railway:traffic_mode": "passenger",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1302818858,
+  "center": {
+    "lat": 18.9250758,
+    "lon": 73.3252872
+  },
+  "tags": {
+    "construction": "rail",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1676",
+    "name": "Panvel Junction - Karjat Suburban Corridor",
+    "railway": "construction",
+    "railway:traffic_mode": "passenger",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1302818859,
+  "center": {
+    "lat": 18.9250603,
+    "lon": 73.3253771
+  },
+  "tags": {
+    "construction": "rail",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1676",
+    "name": "Panvel Junction - Karjat Suburban Corridor",
+    "railway": "construction",
+    "railway:traffic_mode": "passenger",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1303905892,
+  "center": {
+    "lat": 19.2104880,
+    "lon": 72.9809121
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Thane Ring Metro",
+    "opening_date": "2029",
+    "operator": "MMRCL",
+    "proposed": "subway",
+    "proposed:bridge": "viaduct",
+    "proposed:electrified": "yes",
+    "proposed:railway": "subway",
+    "railway": "proposed",
+    "tunnel": "yes",
+    "website": "https://thanemetrorail.com/route-map",
+    "wikidata": "Q61050052",
+    "wikipedia": "en:Thane Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1320487958,
+  "center": {
+    "lat": 19.1315386,
+    "lon": 72.8806247
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "5",
+    "name": "Line 6",
+    "railway": "construction",
+    "tracks": "2",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1322610098,
+  "center": {
+    "lat": 19.2796211,
+    "lon": 72.9518617
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Line 4A",
+    "opening_date": "2026-04",
+    "railway": "construction",
+    "usage": "main",
+    "voltage": "25000",
+    "wikidata": "Q30599218",
+    "wikipedia": "en:Line 4 (Mumbai Metro)"
+  }
+},
+{
+  "type": "way",
+  "id": 1322610102,
+  "center": {
+    "lat": 19.1279698,
+    "lon": 72.9275627
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "maxheight": "24",
+    "name": "Line 4",
+    "opening_date": "2027-11",
+    "railway": "construction",
+    "usage": "main",
+    "voltage": "25000",
+    "wikidata": "Q30599218",
+    "wikipedia": "en:Line 4 (Mumbai Metro)"
+  }
+},
+{
+  "type": "way",
+  "id": 1330126872,
+  "center": {
+    "lat": 19.1756975,
+    "lon": 72.9425406
+  },
+  "tags": {
+    "building": "construction",
+    "construction": "station",
+    "layer": "1",
+    "name": "Mulund Fire Station Metro",
+    "public_transport": "construction",
+    "railway": "construction",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1390358485,
+  "center": {
+    "lat": 19.2794541,
+    "lon": 72.9126907
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Line 10",
+    "proposed": "subway",
+    "proposed:railway": "subway",
+    "railway": "proposed",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1390642222,
+  "center": {
+    "lat": 18.9734025,
+    "lon": 73.1548101
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1676",
+    "layer": "1",
+    "name": "Panvel Junction - Karjat Suburban Corridor",
+    "railway": "construction",
+    "railway:traffic_mode": "passenger",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1390642223,
+  "center": {
+    "lat": 18.9734913,
+    "lon": 73.1547241
+  },
+  "tags": {
+    "bridge": "yes",
+    "construction": "rail",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1676",
+    "layer": "1",
+    "name": "Panvel Junction - Karjat Suburban Corridor",
+    "railway": "construction",
+    "railway:traffic_mode": "passenger",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1390642224,
+  "center": {
+    "lat": 18.9747033,
+    "lon": 73.1487506
+  },
+  "tags": {
+    "construction": "rail",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1676",
+    "name": "Panvel Junction - Karjat Suburban Corridor",
+    "railway": "construction",
+    "railway:traffic_mode": "passenger",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1390642225,
+  "center": {
+    "lat": 18.9747748,
+    "lon": 73.1487131
+  },
+  "tags": {
+    "construction": "rail",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1676",
+    "name": "Panvel Junction - Karjat Suburban Corridor",
+    "railway": "construction",
+    "railway:traffic_mode": "passenger",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1390642228,
+  "center": {
+    "lat": 18.9759840,
+    "lon": 73.1430441
+  },
+  "tags": {
+    "construction": "rail",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1676",
+    "name": "Panvel Junction - Karjat Suburban Corridor",
+    "railway": "construction",
+    "railway:traffic_mode": "passenger",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1390642229,
+  "center": {
+    "lat": 18.9759312,
+    "lon": 73.1430309
+  },
+  "tags": {
+    "construction": "rail",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1676",
+    "name": "Panvel Junction - Karjat Suburban Corridor",
+    "railway": "construction",
+    "railway:traffic_mode": "passenger",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1390642232,
+  "center": {
+    "lat": 18.9773031,
+    "lon": 73.1387889
+  },
+  "tags": {
+    "construction": "rail",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1676",
+    "name": "Panvel Junction - Karjat Suburban Corridor",
+    "railway": "construction",
+    "railway:traffic_mode": "passenger",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1390642233,
+  "center": {
+    "lat": 18.9773655,
+    "lon": 73.1388204
+  },
+  "tags": {
+    "construction": "rail",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1676",
+    "name": "Panvel Junction - Karjat Suburban Corridor",
+    "railway": "construction",
+    "railway:traffic_mode": "passenger",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1393850920,
+  "center": {
+    "lat": 19.0460063,
+    "lon": 72.8788365
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "2",
+    "name": "Line 11",
+    "proposed:railway": "subway",
+    "railway": "proposed",
+    "tracks": "2",
+    "type": "Elevated",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1393850921,
+  "center": {
+    "lat": 19.0445168,
+    "lon": 72.8792938
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "1",
+    "name": "Line 11",
+    "proposed:railway": "subway",
+    "railway": "proposed",
+    "tracks": "2",
+    "type": "Elevated",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1393850922,
+  "center": {
+    "lat": 19.0472936,
+    "lon": 72.8783208
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Line 11",
+    "proposed:railway": "subway",
+    "railway": "proposed",
+    "tracks": "2",
+    "type": "Elevated",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1411928576,
+  "center": {
+    "lat": 19.1870711,
+    "lon": 72.9615376
+  },
+  "tags": {
+    "building": "construction",
+    "construction": "station",
+    "layer": "1",
+    "name": "Teen Hath Naka",
+    "network": "Mumbai Metro",
+    "network:wikidata": "Q30599218",
+    "public_transport": "construction",
+    "railway": "construction",
+    "station": "subway",
+    "subway": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1422139845,
+  "center": {
+    "lat": 18.8929350,
+    "lon": 73.3207644
+  },
+  "tags": {
+    "construction": "rail",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1676",
+    "name": "Karjat - Palasdari Fourth Line",
+    "railway": "construction",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1458510332,
+  "center": {
+    "lat": 19.1795235,
+    "lon": 72.9632567
+  },
+  "tags": {
+    "construction": "yes",
+    "construction:railway": "station",
+    "name": "New Thane Station",
+    "network": "Mumbai Suburban Railway",
+    "network:wikidata": "Q3273422",
+    "public_transport": "station",
+    "railway": "construction",
+    "train": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 1479334635,
+  "center": {
+    "lat": 18.5294010,
+    "lon": 73.8522466
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1479334636,
+  "center": {
+    "lat": 18.5281880,
+    "lon": 73.8570907
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "service": "crossover",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1479334637,
+  "center": {
+    "lat": 18.5287572,
+    "lon": 73.8544657
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "service": "crossover",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1480317360,
+  "center": {
+    "lat": 18.5346423,
+    "lon": 73.8390794
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1480317361,
+  "center": {
+    "lat": 18.5329944,
+    "lon": 73.8414695
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1480317363,
+  "center": {
+    "lat": 18.5316064,
+    "lon": 73.8450334
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1480317364,
+  "center": {
+    "lat": 18.5304151,
+    "lon": 73.8486967
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1480317365,
+  "center": {
+    "lat": 18.5294455,
+    "lon": 73.8522593
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1480317366,
+  "center": {
+    "lat": 18.5363639,
+    "lon": 73.8367496
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "contact_line",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1480317368,
+  "center": {
+    "lat": 18.5363261,
+    "lon": 73.8367183
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1480317369,
+  "center": {
+    "lat": 18.5394661,
+    "lon": 73.8319886
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1480317370,
+  "center": {
+    "lat": 18.5346797,
+    "lon": 73.8391079
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1480317371,
+  "center": {
+    "lat": 18.5330326,
+    "lon": 73.8414977
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "contact_line",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1480317372,
+  "center": {
+    "lat": 18.5316490,
+    "lon": 73.8450541
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1480317373,
+  "center": {
+    "lat": 18.5304613,
+    "lon": 73.8487095
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "contact_line",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1480317374,
+  "center": {
+    "lat": 18.5282101,
+    "lon": 73.8579318
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1480317375,
+  "center": {
+    "lat": 18.5281690,
+    "lon": 73.8579286
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1480317376,
+  "center": {
+    "lat": 18.5283818,
+    "lon": 73.8559072
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1480317377,
+  "center": {
+    "lat": 18.5284242,
+    "lon": 73.8559166
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "contact_line",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1480738528,
+  "center": {
+    "lat": 18.5442419,
+    "lon": 73.8234438
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1480738529,
+  "center": {
+    "lat": 18.5395073,
+    "lon": 73.8320095
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1480738530,
+  "center": {
+    "lat": 18.5423679,
+    "lon": 73.8271807
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1480738531,
+  "center": {
+    "lat": 18.5423238,
+    "lon": 73.8271722
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1480945411,
+  "center": {
+    "lat": 18.5483612,
+    "lon": 73.8139645
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1480945412,
+  "center": {
+    "lat": 18.5442893,
+    "lon": 73.8234592
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1480945413,
+  "center": {
+    "lat": 18.5463507,
+    "lon": 73.8197018
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1480945414,
+  "center": {
+    "lat": 18.5462986,
+    "lon": 73.8196786
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1480945416,
+  "center": {
+    "lat": 18.5484057,
+    "lon": 73.8139798
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1480945417,
+  "center": {
+    "lat": 18.5503244,
+    "lon": 73.8082390
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1480945418,
+  "center": {
+    "lat": 18.5527145,
+    "lon": 73.8030929
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1480945420,
+  "center": {
+    "lat": 18.5502869,
+    "lon": 73.8082317
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1481226988,
+  "center": {
+    "lat": 18.5569221,
+    "lon": 73.7942613
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1481226989,
+  "center": {
+    "lat": 18.5527580,
+    "lon": 73.8030957
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1481226990,
+  "center": {
+    "lat": 18.5549882,
+    "lon": 73.7979449
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1481226991,
+  "center": {
+    "lat": 18.5549381,
+    "lon": 73.7979471
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1481571372,
+  "center": {
+    "lat": 18.5591816,
+    "lon": 73.7905825
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1481571373,
+  "center": {
+    "lat": 18.5569668,
+    "lon": 73.7942690
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1481571374,
+  "center": {
+    "lat": 18.5592253,
+    "lon": 73.7906000
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1481571375,
+  "center": {
+    "lat": 18.5617797,
+    "lon": 73.7851895
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1481571377,
+  "center": {
+    "lat": 18.5604831,
+    "lon": 73.7883736
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "service": "crossover"
+  }
+},
+{
+  "type": "way",
+  "id": 1481571378,
+  "center": {
+    "lat": 18.5618196,
+    "lon": 73.7851985
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1481571379,
+  "center": {
+    "lat": 18.5642011,
+    "lon": 73.7797710
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1481571380,
+  "center": {
+    "lat": 18.5641661,
+    "lon": 73.7797705
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1481571381,
+  "center": {
+    "lat": 18.5670457,
+    "lon": 73.7769785
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1481769124,
+  "center": {
+    "lat": 18.5670668,
+    "lon": 73.7770029
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1481769125,
+  "center": {
+    "lat": 18.5749230,
+    "lon": 73.7689544
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1481769126,
+  "center": {
+    "lat": 18.5743706,
+    "lon": 73.7717851
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1481769127,
+  "center": {
+    "lat": 18.5743268,
+    "lon": 73.7717599
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1481769129,
+  "center": {
+    "lat": 18.5725507,
+    "lon": 73.7735634
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1481769130,
+  "center": {
+    "lat": 18.5725717,
+    "lon": 73.7735973
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1481769131,
+  "center": {
+    "lat": 18.5705155,
+    "lon": 73.7748688
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1481769132,
+  "center": {
+    "lat": 18.5705131,
+    "lon": 73.7748226
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1482515758,
+  "center": {
+    "lat": 18.5749636,
+    "lon": 73.7689668
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1482515759,
+  "center": {
+    "lat": 18.5750624,
+    "lon": 73.7660622
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1482515760,
+  "center": {
+    "lat": 18.5750239,
+    "lon": 73.7660643
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1482515761,
+  "center": {
+    "lat": 18.5770317,
+    "lon": 73.7635778
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1482515763,
+  "center": {
+    "lat": 18.5770554,
+    "lon": 73.7635981
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1482515764,
+  "center": {
+    "lat": 18.5797442,
+    "lon": 73.7615615
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1482515765,
+  "center": {
+    "lat": 18.5797318,
+    "lon": 73.7615192
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1482515766,
+  "center": {
+    "lat": 18.5850311,
+    "lon": 73.7595288
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1482515768,
+  "center": {
+    "lat": 18.5850443,
+    "lon": 73.7595702
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1482515769,
+  "center": {
+    "lat": 18.5913432,
+    "lon": 73.7521137
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1482515770,
+  "center": {
+    "lat": 18.5903126,
+    "lon": 73.7575834
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1482515771,
+  "center": {
+    "lat": 18.5902982,
+    "lon": 73.7575418
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1482521084,
+  "center": {
+    "lat": 18.5913793,
+    "lon": 73.7521381
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1482521085,
+  "center": {
+    "lat": 18.5924256,
+    "lon": 73.7373740
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1482521086,
+  "center": {
+    "lat": 18.5935674,
+    "lon": 73.7326396
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1482521087,
+  "center": {
+    "lat": 18.5923793,
+    "lon": 73.7373376
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1482521089,
+  "center": {
+    "lat": 18.5914750,
+    "lon": 73.7417514
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1482521090,
+  "center": {
+    "lat": 18.5915178,
+    "lon": 73.7417732
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1482521091,
+  "center": {
+    "lat": 18.5909840,
+    "lon": 73.7462865
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1482521092,
+  "center": {
+    "lat": 18.5909430,
+    "lon": 73.7462796
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1483339703,
+  "center": {
+    "lat": 18.5936145,
+    "lon": 73.7326621
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1483339704,
+  "center": {
+    "lat": 18.5945166,
+    "lon": 73.7278154
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1483339705,
+  "center": {
+    "lat": 18.5957101,
+    "lon": 73.7225036
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1483339706,
+  "center": {
+    "lat": 18.5944745,
+    "lon": 73.7278072
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1483339708,
+  "center": {
+    "lat": 18.5957596,
+    "lon": 73.7225008
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1483339709,
+  "center": {
+    "lat": 18.5954453,
+    "lon": 73.7131635
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1483339710,
+  "center": {
+    "lat": 18.5966320,
+    "lon": 73.7171944
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1483339711,
+  "center": {
+    "lat": 18.5965799,
+    "lon": 73.7172073
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1483352952,
+  "center": {
+    "lat": 18.5954926,
+    "lon": 73.7131447
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1483352953,
+  "center": {
+    "lat": 18.5910687,
+    "lon": 73.7060632
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1483352954,
+  "center": {
+    "lat": 18.5942089,
+    "lon": 73.7091850
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1483352955,
+  "center": {
+    "lat": 18.5941669,
+    "lon": 73.7092080
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1483352957,
+  "center": {
+    "lat": 18.5860731,
+    "lon": 73.6988451
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1483352958,
+  "center": {
+    "lat": 18.5911140,
+    "lon": 73.7060455
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1483352959,
+  "center": {
+    "lat": 18.5881006,
+    "lon": 73.7028562
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1483352960,
+  "center": {
+    "lat": 18.5880509,
+    "lon": 73.7028731
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1483767836,
+  "center": {
+    "lat": 18.5861180,
+    "lon": 73.6988239
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1483767837,
+  "center": {
+    "lat": 18.5840014,
+    "lon": 73.6948213
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1483767838,
+  "center": {
+    "lat": 18.5840398,
+    "lon": 73.6947996
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1483767839,
+  "center": {
+    "lat": 18.5818191,
+    "lon": 73.6910014
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1483767841,
+  "center": {
+    "lat": 18.5818347,
+    "lon": 73.6909686
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1483767842,
+  "center": {
+    "lat": 18.5793178,
+    "lon": 73.6879829
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1483767843,
+  "center": {
+    "lat": 18.5777322,
+    "lon": 73.6882390
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1483767845,
+  "center": {
+    "lat": 18.5793222,
+    "lon": 73.6880268
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "subway": "yes",
+    "system": "Pune Metro",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1483772575,
+  "center": {
+    "lat": 18.5768798,
+    "lon": 73.6948165
+  },
+  "tags": {
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "embankment": "yes",
+    "frequency": "0",
+    "gauge": "1435",
+    "incline": "up",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "service": "spur",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1483772576,
+  "center": {
+    "lat": 18.5784832,
+    "lon": 73.6963679
+  },
+  "tags": {
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "service": "yard",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1483772581,
+  "center": {
+    "lat": 18.5780377,
+    "lon": 73.6881559
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1483772582,
+  "center": {
+    "lat": 18.5749942,
+    "lon": 73.6910685
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "service": "spur",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1483772583,
+  "center": {
+    "lat": 18.5795823,
+    "lon": 73.6963918
+  },
+  "tags": {
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "service": "yard",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1483772584,
+  "center": {
+    "lat": 18.5768946,
+    "lon": 73.6947873
+  },
+  "tags": {
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "embankment": "yes",
+    "frequency": "0",
+    "gauge": "1435",
+    "incline": "up",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "service": "spur",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1483772585,
+  "center": {
+    "lat": 18.5763207,
+    "lon": 73.6944386
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "incline": "down",
+    "layer": "1",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "service": "spur",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1483772586,
+  "center": {
+    "lat": 18.5763062,
+    "lon": 73.6944695
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "incline": "up",
+    "layer": "1",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "service": "spur",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1483772587,
+  "center": {
+    "lat": 18.5755604,
+    "lon": 73.6940313
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "incline": "up",
+    "layer": "2",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "service": "spur",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1483772588,
+  "center": {
+    "lat": 18.5755732,
+    "lon": 73.6940001
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "incline": "down",
+    "layer": "2",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "service": "spur",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1483818716,
+  "center": {
+    "lat": 18.5773040,
+    "lon": 73.6950341
+  },
+  "tags": {
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metro Line 3 (Pink Line)",
+    "opening_date": "2026",
+    "operator": "PMRDA",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "service": "spur",
+    "subway": "yes",
+    "voltage": "750"
+  }
+},
+{
+  "type": "way",
+  "id": 1483818717,
+  "center": {
+    "lat": 18.5772160,
+    "lon": 73.6950224
+  },
+  "tags": {
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "service": "spur",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1483818731,
+  "center": {
+    "lat": 18.5804278,
+    "lon": 73.6981162
+  },
+  "tags": {
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "rail",
+    "frequency": "0",
+    "gauge": "1435",
+    "name": "Pune Metro Line 3 (Shivajinagar-Hinjawadi Phase 3)",
+    "name:mr": "पुणे मेट्रो मार्गिका ३ शिवाजीनगर हिंजवडी",
+    "opening_date": "2026",
+    "operator": "Pune Metro",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "service": "yard",
+    "system": "Pune Metro",
+    "voltage": "750",
+    "wikidata": "Q3595697",
+    "wikipedia": "en:Pune Metro"
+  }
+},
+{
+  "type": "way",
+  "id": 1484919195,
+  "center": {
+    "lat": 19.2226973,
+    "lon": 72.9915771
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Mumbai Metro Line 5",
+    "railway": "construction",
+    "subway": "yes",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1484919196,
+  "center": {
+    "lat": 19.2226530,
+    "lon": 72.9822137
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Line-5: Thane - Bhiwandi - Kalyan",
+    "railway": "construction",
+    "tracks": "2",
+    "usage": "main",
+    "voltage": "25000",
+    "wikidata": "Q30603098",
+    "wikipedia": "en:Line 5 (Mumbai Metro)"
+  }
+},
+{
+  "type": "way",
+  "id": 1484919197,
+  "center": {
+    "lat": 19.2205755,
+    "lon": 72.9879231
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Mumbai Metro Line 5",
+    "railway": "construction",
+    "subway": "yes",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1484919198,
+  "center": {
+    "lat": 19.2226824,
+    "lon": 72.9822324
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Mumbai Metro Line 5",
+    "railway": "construction",
+    "subway": "yes",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1484919199,
+  "center": {
+    "lat": 19.2205373,
+    "lon": 72.9879438
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Line-5: Thane - Bhiwandi - Kalyan",
+    "railway": "construction",
+    "tracks": "2",
+    "usage": "main",
+    "voltage": "25000",
+    "wikidata": "Q30603098",
+    "wikipedia": "en:Line 5 (Mumbai Metro)"
+  }
+},
+{
+  "type": "way",
+  "id": 1484919202,
+  "center": {
+    "lat": 19.2533305,
+    "lon": 72.9684448
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "maxheight": "24",
+    "name": "Line 4",
+    "opening_date": "2027-11",
+    "railway": "construction",
+    "usage": "main",
+    "voltage": "25000",
+    "wikidata": "Q30599218",
+    "wikipedia": "en:Line 4 (Mumbai Metro)"
+  }
+},
+{
+  "type": "way",
+  "id": 1484919203,
+  "center": {
+    "lat": 19.2533115,
+    "lon": 72.9683991
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "maxheight": "24",
+    "name": "Line 4",
+    "opening_date": "2027-11",
+    "railway": "construction",
+    "usage": "main",
+    "voltage": "25000",
+    "wikidata": "Q30599218",
+    "wikipedia": "en:Line 4 (Mumbai Metro)"
+  }
+},
+{
+  "type": "way",
+  "id": 1484919204,
+  "center": {
+    "lat": 19.2314073,
+    "lon": 72.9766125
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "maxheight": "24",
+    "name": "Line 4",
+    "opening_date": "2027-11",
+    "railway": "construction",
+    "usage": "main",
+    "voltage": "25000",
+    "wikidata": "Q30599218",
+    "wikipedia": "en:Line 4 (Mumbai Metro)"
+  }
+},
+{
+  "type": "way",
+  "id": 1484919205,
+  "center": {
+    "lat": 19.2314019,
+    "lon": 72.9765587
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "maxheight": "24",
+    "name": "Line 4",
+    "opening_date": "2027-11",
+    "railway": "construction",
+    "usage": "main",
+    "voltage": "25000",
+    "wikidata": "Q30599218",
+    "wikipedia": "en:Line 4 (Mumbai Metro)"
+  }
+},
+{
+  "type": "way",
+  "id": 1485677773,
+  "center": {
+    "lat": 19.1021361,
+    "lon": 72.8593958
+  },
+  "tags": {
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "-2",
+    "name": "Line 7A",
+    "opening_date": "2026-12",
+    "railway": "construction",
+    "tunnel": "yes",
+    "usage": "main",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1485713535,
+  "center": {
+    "lat": 19.2942679,
+    "lon": 72.8431291
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Line 9",
+    "name:en": "Line 9",
+    "name:hi": "लाईन ९",
+    "name:mr": "लाईन ९",
+    "opening_date": "2026-12",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1485713536,
+  "center": {
+    "lat": 19.2942135,
+    "lon": 72.8431346
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Line 9",
+    "name:en": "Line 9",
+    "name:hi": "लाईन ९",
+    "name:mr": "लाईन ९",
+    "opening_date": "2026-12",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1485713538,
+  "center": {
+    "lat": 19.2945554,
+    "lon": 72.8462112
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Line 9",
+    "name:en": "Line 9",
+    "name:hi": "लाईन ९",
+    "name:mr": "लाईन ९",
+    "opening_date": "2026-12",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1485713539,
+  "center": {
+    "lat": 19.2945047,
+    "lon": 72.8462166
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Line 9",
+    "name:en": "Line 9",
+    "name:hi": "लाईन ९",
+    "name:mr": "लाईन ९",
+    "opening_date": "2026-12",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1485713540,
+  "center": {
+    "lat": 19.2947961,
+    "lon": 72.8493638
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Line 9",
+    "name:en": "Line 9",
+    "name:hi": "लाईन ९",
+    "name:mr": "लाईन ९",
+    "opening_date": "2026-12",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1485713541,
+  "center": {
+    "lat": 19.2948458,
+    "lon": 72.8493587
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Line 9",
+    "name:en": "Line 9",
+    "name:hi": "लाईन ९",
+    "name:mr": "लाईन ९",
+    "opening_date": "2026-12",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1485780202,
+  "center": {
+    "lat": 19.2677715,
+    "lon": 72.9840467
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "electrified": "contact_line",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Thane Ring Metro depot spur",
+    "opening_date": "2029",
+    "proposed:railway": "subway",
+    "railway": "proposed",
+    "service": "spur"
+  }
+},
+{
+  "type": "way",
+  "id": 1485780203,
+  "center": {
+    "lat": 19.2643002,
+    "lon": 72.9842129
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "electrified": "contact_line",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Thane Ring Metro depot spur",
+    "opening_date": "2029",
+    "proposed:railway": "subway",
+    "railway": "proposed",
+    "service": "spur"
+  }
+},
+{
+  "type": "way",
+  "id": 1485780207,
+  "center": {
+    "lat": 19.2719193,
+    "lon": 72.9814825
+  },
+  "tags": {
+    "electrified": "contact_line",
+    "gauge": "1435",
+    "name": "Thane Ring Metro depot spur",
+    "opening_date": "2029",
+    "proposed:railway": "subway",
+    "railway": "proposed",
+    "service": "spur"
+  }
+},
+{
+  "type": "way",
+  "id": 1488808250,
+  "center": {
+    "lat": 18.6484172,
+    "lon": 73.7867901
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "4",
+    "name": "Pune Metro Purple Line (Extension 1A)",
+    "opening_date": "2029",
+    "operator": "MahaMetro",
+    "railway": "construction",
+    "usage": "main",
+    "voltage": "25000",
+    "wikidata": "Q59155676",
+    "wikipedia": "en:Purple Line (Pune Metro)"
+  }
+},
+{
+  "type": "way",
+  "id": 1488808251,
+  "center": {
+    "lat": 18.6489001,
+    "lon": 73.7864410
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "4",
+    "name": "Pune Metro Purple Line (Extension 1A)",
+    "opening_date": "2029",
+    "operator": "MahaMetro",
+    "railway": "construction",
+    "usage": "main",
+    "voltage": "25000",
+    "wikidata": "Q59155676",
+    "wikipedia": "en:Purple Line (Pune Metro)"
+  }
+},
+{
+  "type": "way",
+  "id": 1489088560,
+  "center": {
+    "lat": 18.5833230,
+    "lon": 73.9771805
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "2",
+    "name": "Pune Metro Aqua Line (Extension 2B)",
+    "operator": "Maha Metro",
+    "proposed:railway": "subway",
+    "railway": "proposed",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1489088561,
+  "center": {
+    "lat": 18.5832925,
+    "lon": 73.9772007
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "2",
+    "name": "Pune Metro Aqua Line (Extension 2B)",
+    "operator": "Maha Metro",
+    "proposed:railway": "subway",
+    "railway": "proposed",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1489429535,
+  "center": {
+    "lat": 18.4863133,
+    "lon": 73.8151690
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "2",
+    "name": "Pune Metreo Line 4A",
+    "operator": "Maha Metro",
+    "proposed:railway": "subway",
+    "railway": "proposed",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1489429536,
+  "center": {
+    "lat": 18.4864526,
+    "lon": 73.8151141
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "2",
+    "name": "Pune Metreo Line 4A",
+    "operator": "Maha Metro",
+    "proposed:railway": "subway",
+    "railway": "proposed",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1489755529,
+  "center": {
+    "lat": 18.4757383,
+    "lon": 73.8540687
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "2",
+    "name": "Pune Metro Line 4",
+    "operator": "Maha Metro",
+    "proposed:railway": "subway",
+    "railway": "proposed",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1489755530,
+  "center": {
+    "lat": 18.4756784,
+    "lon": 73.8540633
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "2",
+    "name": "Pune Metro Line 4",
+    "operator": "Maha Metro",
+    "proposed:railway": "subway",
+    "railway": "proposed",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1489755531,
+  "center": {
+    "lat": 18.4670405,
+    "lon": 73.8169267
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Pune Metreo Line 4A",
+    "operator": "Maha Metro",
+    "proposed:railway": "subway",
+    "railway": "proposed",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1489755532,
+  "center": {
+    "lat": 18.4672881,
+    "lon": 73.8181957
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "2",
+    "name": "Pune Metreo Line 4A",
+    "operator": "Maha Metro",
+    "proposed:railway": "subway",
+    "railway": "proposed",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1489774106,
+  "center": {
+    "lat": 18.5079142,
+    "lon": 73.7916074
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "2",
+    "name": "Pune Metro Aqua Line Extension 2A",
+    "operator": "Maha Metro",
+    "proposed:railway": "subway",
+    "railway": "proposed",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1489774107,
+  "center": {
+    "lat": 18.5079766,
+    "lon": 73.7916078
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "2",
+    "name": "Pune Metro Aqua Line Extension 2A",
+    "operator": "Maha Metro",
+    "proposed:railway": "subway",
+    "railway": "proposed",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1490250076,
+  "center": {
+    "lat": 18.4708807,
+    "lon": 73.8578107
+  },
+  "tags": {
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "-2",
+    "name": "Pune Metro Purple Line Extension 1B",
+    "operator": "Maha Metro",
+    "proposed:railway": "subway",
+    "railway": "proposed",
+    "subway": "yes",
+    "tunnel": "yes",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1490250077,
+  "center": {
+    "lat": 18.4708903,
+    "lon": 73.8576762
+  },
+  "tags": {
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "-2",
+    "name": "Pune Metro Purple Line Extension 1B",
+    "operator": "Maha Metro",
+    "proposed:railway": "subway",
+    "railway": "proposed",
+    "subway": "yes",
+    "tunnel": "yes",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1490541622,
+  "center": {
+    "lat": 18.5633092,
+    "lon": 73.9305136
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "2",
+    "name": "Pune Metro Aqua Line (Extension 2B)",
+    "operator": "Maha Metro",
+    "railway": "construction",
+    "subway": "yes",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1490541623,
+  "center": {
+    "lat": 18.5633416,
+    "lon": 73.9305003
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction:railway": "subway",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "2",
+    "name": "Pune Metro Aqua Line (Extension 2B)",
+    "operator": "Maha Metro",
+    "railway": "construction",
+    "subway": "yes",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1503353997,
+  "center": {
+    "lat": 19.2810164,
+    "lon": 72.8755972
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "no",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Line 9",
+    "name:en": "Line 9",
+    "name:hi": "लाईन ९",
+    "name:mr": "लाईन ९",
+    "opening_date": "2026-12",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1503353998,
+  "center": {
+    "lat": 19.2810584,
+    "lon": 72.8756334
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "no",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Line 9",
+    "name:en": "Line 9",
+    "name:hi": "लाईन ९",
+    "name:mr": "लाईन ९",
+    "opening_date": "2026-12",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1503353999,
+  "center": {
+    "lat": 19.2844233,
+    "lon": 72.8710085
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Line 9",
+    "name:en": "Line 9",
+    "name:hi": "लाईन ९",
+    "name:mr": "लाईन ९",
+    "opening_date": "2026-12",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1503354000,
+  "center": {
+    "lat": 19.2843848,
+    "lon": 72.8709761
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Line 9",
+    "name:en": "Line 9",
+    "name:hi": "लाईन ९",
+    "name:mr": "लाईन ९",
+    "opening_date": "2026-12",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1503354002,
+  "center": {
+    "lat": 19.2950057,
+    "lon": 72.8548134
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "no",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Line 9",
+    "name:en": "Line 9",
+    "name:hi": "लाईन ९",
+    "name:mr": "लाईन ९",
+    "opening_date": "2026-12",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1503354003,
+  "center": {
+    "lat": 19.2950470,
+    "lon": 72.8548297
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "no",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Line 9",
+    "name:en": "Line 9",
+    "name:hi": "लाईन ९",
+    "name:mr": "लाईन ९",
+    "opening_date": "2026-12",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1503354004,
+  "center": {
+    "lat": 19.2940115,
+    "lon": 72.8599817
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Line 9",
+    "name:en": "Line 9",
+    "name:hi": "लाईन ९",
+    "name:mr": "लाईन ९",
+    "opening_date": "2026-12",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "voltage": "25000"
+  }
+},
+{
+  "type": "way",
+  "id": 1503354005,
+  "center": {
+    "lat": 19.2940444,
+    "lon": 72.8600191
+  },
+  "tags": {
+    "bridge": "viaduct",
+    "construction": "subway",
+    "construction:railway": "subway",
+    "covered": "yes",
+    "electrified": "contact_line",
+    "frequency": "50",
+    "gauge": "1435",
+    "layer": "3",
+    "name": "Line 9",
+    "name:en": "Line 9",
+    "name:hi": "लाईन ९",
+    "name:mr": "लाईन ९",
+    "opening_date": "2026-12",
+    "railway": "construction",
+    "railway:ballastless": "yes",
+    "voltage": "25000"
+  }
+}
+
+  ]
+}

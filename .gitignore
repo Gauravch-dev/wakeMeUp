@@ -1,0 +1,23 @@
+.gradle/
+.kotlin/
+.gradle-user-home/
+**/build/
+.idea/
+local.properties
+*.iml
+*.jks
+*.keystore
+.tools/
+
+# Distribute installable builds through GitHub Releases, not source control.
+*.apk
+*.aab
+*.apks
+*.idsig
+
+# Local secrets and operating-system files.
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

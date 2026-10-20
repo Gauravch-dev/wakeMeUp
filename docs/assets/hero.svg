@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="title desc">
+  <title id="title">wakemeup — Your stop, not a stopwatch.</title>
+  <desc id="desc">A branded illustration of a train approaching Sanpada on a Panvel to Vashi journey. The wake-up point is one station before Vashi. This is an illustration, not an app screenshot.</desc>
+  <rect width="1200" height="340" rx="24" fill="#F9F6EF"/>
+  <rect x="1" y="1" width="1198" height="338" rx="23" fill="none" stroke="#DDDCD2" stroke-width="2"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="44" y="37" width="216" height="30" rx="15" fill="#E4EDDF"/>
+    <text x="152" y="57" text-anchor="middle" fill="#2E5D43" font-size="11" font-weight="700" letter-spacing="0.7">NATIVE ANDROID · OFFLINE ROUTES</text>
+    <text x="44" y="132" fill="#183C2F" font-size="58" font-weight="700" letter-spacing="-3">wakemeup</text>
+    <text x="46" y="176" fill="#2E5D43" font-size="24" font-weight="600">Your stop, not a stopwatch.</text>
+    <text x="46" y="218" fill="#626A61" font-size="17">Choose your journey. Track your route.</text>
+    <text x="46" y="245" fill="#626A61" font-size="17">Wake one station before your destination.</text>
+    <text x="46" y="302" fill="#626A61" font-size="11" letter-spacing="0.5">KOTLIN / JETPACK COMPOSE / LOCATION-AWARE ALARMS</text>
+    <rect x="545" y="34" width="614" height="272" rx="20" fill="#183C2F"/>
+    <text x="577" y="69" fill="#A8D6B6" font-size="12" font-weight="600" letter-spacing="1.5">EXAMPLE JOURNEY</text>
+    <text x="577" y="104" fill="#F9F6EF" font-size="26" font-weight="600">Panvel → Vashi</text>
+    <rect x="868" y="53" width="259" height="37" rx="18" fill="#2E5D43"/>
+    <text x="997" y="77" fill="#F9F6EF" font-size="13" text-anchor="middle">Wake near Sanpada</text>
+    <g stroke="#567962" stroke-width="3">
+      <path d="M584 199H1118M584 210H1118"/>
+      <path d="M600 192V218M630 192V218M660 192V218M690 192V218M720 192V218M750 192V218M780 192V218M810 192V218M840 192V218M870 192V218M900 192V218M930 192V218M960 192V218M990 192V218M1020 192V218M1050 192V218M1080 192V218M1110 192V218"/>
+    </g>
+    <path d="M584 199H936M584 210H936" stroke="#A8D6B6" stroke-width="3"/>
+    <g fill="#183C2F" stroke="#A8D6B6" stroke-width="3">
+      <circle cx="592" cy="204" r="7"/>
+      <circle cx="977" cy="204" r="10" fill="#A8D6B6"/>
+      <circle cx="1110" cy="204" r="9"/>
+    </g>
+    <g transform="translate(868 151)">
+      <rect x="0" y="6" width="40" height="32" rx="7" fill="#A8D6B6"/>
+      <rect x="45" y="0" width="52" height="38" rx="10" fill="#A8D6B6"/>
+      <path d="M38 31H48" stroke="#A8D6B6" stroke-width="5"/>
+      <g fill="#183C2F">
+        <rect x="7" y="13" width="10" height="12" rx="2"/>
+        <rect x="23" y="13" width="10" height="12" rx="2"/>
+        <rect x="54" y="9" width="12" height="14" rx="2"/>
+        <rect x="74" y="9" width="15" height="14" rx="2"/>
+      </g>
+      <g fill="#F9F6EF" stroke="#183C2F" stroke-width="3">
+        <circle cx="10" cy="39" r="6"/><circle cx="30" cy="39" r="6"/>
+        <circle cx="56" cy="39" r="6"/><circle cx="84" cy="39" r="6"/>
+      </g>
+    </g>
+    <text x="579" y="245" fill="#DFE7DC" font-size="14">Panvel</text>
+    <text x="977" y="245" fill="#A8D6B6" font-size="14" font-weight="700" text-anchor="middle">Sanpada</text>
+    <text x="1123" y="245" fill="#DFE7DC" font-size="14" text-anchor="end">Vashi</text>
+    <text x="977" y="269" fill="#A8D6B6" font-size="11" text-anchor="middle">WAKE-UP STATION</text>
+    <text x="1123" y="290" fill="#A8BCAB" font-size="10" text-anchor="end">Illustrative route · not to scale</text>
+  </g>
+</svg>

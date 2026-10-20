@@ -1,0 +1,1459 @@
+{
+  "stations": [
+    {
+      "id": "ABH",
+      "name": "Ambarnath",
+      "lat": 19.2100605,
+      "lon": 73.1846877,
+      "aliases": "",
+      "osm": "node/276562803"
+    },
+    {
+      "id": "ABY",
+      "name": "Ambivli",
+      "lat": 19.2682913,
+      "lon": 73.1722459,
+      "aliases": "",
+      "osm": "node/276561422"
+    },
+    {
+      "id": "ADH",
+      "name": "Andheri",
+      "lat": 19.1196976,
+      "lon": 72.8464205,
+      "aliases": "",
+      "osm": "node/5696928866"
+    },
+    {
+      "id": "AIRL",
+      "name": "Airoli",
+      "lat": 19.1585231,
+      "lon": 72.9994023,
+      "aliases": "",
+      "osm": "way/655146730"
+    },
+    {
+      "id": "APTA",
+      "name": "Apta",
+      "lat": 18.8637081,
+      "lon": 73.1532989,
+      "aliases": "",
+      "osm": "node/506820481"
+    },
+    {
+      "id": "ASO",
+      "name": "Asangaon",
+      "lat": 19.4397472,
+      "lon": 73.3080116,
+      "aliases": "",
+      "osm": "node/823469588"
+    },
+    {
+      "id": "ATG",
+      "name": "Atgaon",
+      "lat": 19.5035419,
+      "lon": 73.3282574,
+      "aliases": "",
+      "osm": "node/823469603"
+    },
+    {
+      "id": "BA",
+      "name": "Bandra",
+      "lat": 19.0549792,
+      "lon": 72.8402203,
+      "aliases": "",
+      "osm": "node/2630075000"
+    },
+    {
+      "id": "BEPR",
+      "name": "CBD Belapur",
+      "lat": 19.0190075,
+      "lon": 73.0391304,
+      "aliases": "Belapur",
+      "osm": "node/11335491946"
+    },
+    {
+      "id": "BIRD",
+      "name": "Bhiwandi Road",
+      "lat": 19.2688735,
+      "lon": 73.0463121,
+      "aliases": "",
+      "osm": "node/213017960"
+    },
+    {
+      "id": "BMDR",
+      "name": "Bamandongri",
+      "lat": 18.9751702,
+      "lon": 73.0244037,
+      "aliases": "Baman Dongri Bamandongari",
+      "osm": "way/648982741"
+    },
+    {
+      "id": "BND",
+      "name": "Bhandup",
+      "lat": 19.142757,
+      "lon": 72.9376543,
+      "aliases": "",
+      "osm": "node/3248305759"
+    },
+    {
+      "id": "BOR",
+      "name": "Boisar",
+      "lat": 19.7984865,
+      "lon": 72.761452,
+      "aliases": "",
+      "osm": "node/1149274608"
+    },
+    {
+      "id": "BSR",
+      "name": "Vasai Road",
+      "lat": 19.3826676,
+      "lon": 72.8320245,
+      "aliases": "",
+      "osm": "node/30518283"
+    },
+    {
+      "id": "BUD",
+      "name": "Badlapur",
+      "lat": 19.1666237,
+      "lon": 73.2389064,
+      "aliases": "",
+      "osm": "node/276563224"
+    },
+    {
+      "id": "BVI",
+      "name": "Borivali",
+      "lat": 19.229068,
+      "lon": 72.8573628,
+      "aliases": "",
+      "osm": "node/3347009325"
+    },
+    {
+      "id": "BVS",
+      "name": "Bhivpuri Road",
+      "lat": 18.9705491,
+      "lon": 73.3314374,
+      "aliases": "",
+      "osm": "node/1078211630"
+    },
+    {
+      "id": "BY",
+      "name": "Byculla",
+      "lat": 18.9766219,
+      "lon": 72.8327936,
+      "aliases": "",
+      "osm": "node/2630075001"
+    },
+    {
+      "id": "BYR",
+      "name": "Bhayandar",
+      "lat": 19.3101847,
+      "lon": 72.8526988,
+      "aliases": "",
+      "osm": "node/30518297"
+    },
+    {
+      "id": "CCG",
+      "name": "Churchgate",
+      "lat": 18.9354797,
+      "lon": 72.8271741,
+      "aliases": "",
+      "osm": "node/4260136290"
+    },
+    {
+      "id": "CHF",
+      "name": "Chunabhatti",
+      "lat": 19.0517703,
+      "lon": 72.8690974,
+      "aliases": "",
+      "osm": "node/2663219988"
+    },
+    {
+      "id": "CHG",
+      "name": "Chinchpokli",
+      "lat": 18.9871984,
+      "lon": 72.8326716,
+      "aliases": "",
+      "osm": "node/3501418211"
+    },
+    {
+      "id": "CLA",
+      "name": "Kurla",
+      "lat": 19.0652797,
+      "lon": 72.8793805,
+      "aliases": "",
+      "osm": "node/2663447640"
+    },
+    {
+      "id": "CMBR",
+      "name": "Chembur",
+      "lat": 19.0626319,
+      "lon": 72.9011399,
+      "aliases": "",
+      "osm": "node/2454571178"
+    },
+    {
+      "id": "CRD",
+      "name": "Currey Road",
+      "lat": 18.9937486,
+      "lon": 72.8328556,
+      "aliases": "",
+      "osm": "node/2444001671"
+    },
+    {
+      "id": "CSMT",
+      "name": "CSMT",
+      "lat": 18.9404925,
+      "lon": 72.8357856,
+      "aliases": "CST VT CSTM Mumbai Chhatrapati Shivaji Maharaj Terminus Victoria Terminus",
+      "osm": "node/12176277888"
+    },
+    {
+      "id": "CTGN",
+      "name": "Cotton Green",
+      "lat": 18.9871866,
+      "lon": 72.8438965,
+      "aliases": "",
+      "osm": "node/700886403"
+    },
+    {
+      "id": "CYR",
+      "name": "Charni Road",
+      "lat": 18.9518437,
+      "lon": 72.8182401,
+      "aliases": "",
+      "osm": "node/2630075002"
+    },
+    {
+      "id": "DI",
+      "name": "Dombivli",
+      "lat": 19.2180493,
+      "lon": 73.0861355,
+      "aliases": "",
+      "osm": "node/4548420708"
+    },
+    {
+      "id": "DIC",
+      "name": "Dahisar",
+      "lat": 19.2493572,
+      "lon": 72.8596302,
+      "aliases": "",
+      "osm": "node/213030669"
+    },
+    {
+      "id": "DIGH",
+      "name": "Digha Gaon",
+      "lat": 19.1807762,
+      "lon": 72.9944301,
+      "aliases": "",
+      "osm": "way/900607248"
+    },
+    {
+      "id": "DIVA",
+      "name": "Diva Junction",
+      "lat": 19.1887564,
+      "lon": 73.0414169,
+      "aliases": "",
+      "osm": "node/630743879"
+    },
+    {
+      "id": "DKRD",
+      "name": "Dockyard Road",
+      "lat": 18.9674767,
+      "lon": 72.8445477,
+      "aliases": "",
+      "osm": "node/2443092123"
+    },
+    {
+      "id": "DLV",
+      "name": "Dolavli",
+      "lat": 18.8331631,
+      "lon": 73.3203444,
+      "aliases": "",
+      "osm": "node/960296024"
+    },
+    {
+      "id": "DR",
+      "name": "Dadar",
+      "lat": 19.0173761,
+      "lon": 72.8430265,
+      "aliases": "Dadar Central Western DDR",
+      "osm": "node/2630075003"
+    },
+    {
+      "id": "DRD",
+      "name": "Dahanu Road",
+      "lat": 19.9915236,
+      "lon": 72.7434083,
+      "aliases": "",
+      "osm": "node/1316209330"
+    },
+    {
+      "id": "DRNGR",
+      "name": "Dronagiri",
+      "lat": 18.8813327,
+      "lon": 72.9647315,
+      "aliases": "",
+      "osm": "node/7555912827"
+    },
+    {
+      "id": "DTVL",
+      "name": "Dativali",
+      "lat": 19.1871047,
+      "lon": 73.0591806,
+      "aliases": "",
+      "osm": "node/1369352793"
+    },
+    {
+      "id": "GAVAN",
+      "name": "Gavan",
+      "lat": 18.935465,
+      "lon": 73.02215,
+      "aliases": "Gavhan Gavan GAVN",
+      "osm": "wikidata/Q29026158"
+    },
+    {
+      "id": "GC",
+      "name": "Ghatkopar",
+      "lat": 19.0856928,
+      "lon": 72.9083668,
+      "aliases": "",
+      "osm": "node/4264539430"
+    },
+    {
+      "id": "GMN",
+      "name": "Goregaon",
+      "lat": 19.1648688,
+      "lon": 72.8495492,
+      "aliases": "",
+      "osm": "node/3347034961"
+    },
+    {
+      "id": "GNSL",
+      "name": "Ghansoli",
+      "lat": 19.1163113,
+      "lon": 73.0070197,
+      "aliases": "",
+      "osm": "way/655530297"
+    },
+    {
+      "id": "GTBN",
+      "name": "Guru Tegh Bahadur Nagar",
+      "lat": 19.0380048,
+      "lon": 72.8643455,
+      "aliases": "",
+      "osm": "node/4264841906"
+    },
+    {
+      "id": "GTR",
+      "name": "Grant Road",
+      "lat": 18.9633549,
+      "lon": 72.8158261,
+      "aliases": "",
+      "osm": "node/631579580"
+    },
+    {
+      "id": "GV",
+      "name": "Govandi",
+      "lat": 19.0553688,
+      "lon": 72.9150702,
+      "aliases": "",
+      "osm": "node/3205733664"
+    },
+    {
+      "id": "HMRR",
+      "name": "Hamarapur",
+      "lat": 18.7839356,
+      "lon": 73.0792002,
+      "aliases": "Hamrapur Hamarapur",
+      "osm": "node/6166805005"
+    },
+    {
+      "id": "JCNR",
+      "name": "Juchandra",
+      "lat": 19.3604641,
+      "lon": 72.8723218,
+      "aliases": "Juichandra",
+      "osm": "node/5580577005"
+    },
+    {
+      "id": "JITE",
+      "name": "Jite",
+      "lat": 18.8200931,
+      "lon": 73.0868155,
+      "aliases": "",
+      "osm": "node/6164590560"
+    },
+    {
+      "id": "JNJ",
+      "name": "Juinagar",
+      "lat": 19.0558651,
+      "lon": 73.0182495,
+      "aliases": "",
+      "osm": "way/642845770"
+    },
+    {
+      "id": "JOS",
+      "name": "Jogeshwari",
+      "lat": 19.1361144,
+      "lon": 72.848936,
+      "aliases": "",
+      "osm": "node/12189363305"
+    },
+    {
+      "id": "KARD",
+      "name": "Kaman Road",
+      "lat": 19.3366555,
+      "lon": 72.9190837,
+      "aliases": "",
+      "osm": "node/5580577254"
+    },
+    {
+      "id": "KARP",
+      "name": "Kharkopar",
+      "lat": 18.9598939,
+      "lon": 73.0141321,
+      "aliases": "",
+      "osm": "way/648982743"
+    },
+    {
+      "id": "KASU",
+      "name": "Kasu",
+      "lat": 18.6413721,
+      "lon": 73.0793081,
+      "aliases": "",
+      "osm": "node/6166853068"
+    },
+    {
+      "id": "KCE",
+      "name": "King's Circle",
+      "lat": 19.0316822,
+      "lon": 72.8577375,
+      "aliases": "Kings Circle King Circle",
+      "osm": "node/1650694464"
+    },
+    {
+      "id": "KDV",
+      "name": "Khadavli",
+      "lat": 19.356724,
+      "lon": 73.2190375,
+      "aliases": "",
+      "osm": "node/276561755"
+    },
+    {
+      "id": "KE",
+      "name": "Khardi",
+      "lat": 19.5802161,
+      "lon": 73.3938248,
+      "aliases": "",
+      "osm": "node/823469674"
+    },
+    {
+      "id": "KHAG",
+      "name": "Kharghar",
+      "lat": 19.0258415,
+      "lon": 73.0593001,
+      "aliases": "",
+      "osm": "node/12189351682"
+    },
+    {
+      "id": "KHAR",
+      "name": "Khar Road",
+      "lat": 19.0682411,
+      "lon": 72.8400412,
+      "aliases": "",
+      "osm": "node/347138797"
+    },
+    {
+      "id": "KHBV",
+      "name": "Kharbao",
+      "lat": 19.298321,
+      "lon": 72.9844677,
+      "aliases": "",
+      "osm": "node/30518361"
+    },
+    {
+      "id": "KHPI",
+      "name": "Khopoli",
+      "lat": 18.788473,
+      "lon": 73.3460712,
+      "aliases": "",
+      "osm": "node/968816750"
+    },
+    {
+      "id": "KILE",
+      "name": "Kandivali",
+      "lat": 19.2041136,
+      "lon": 72.8517376,
+      "aliases": "",
+      "osm": "node/3347023609"
+    },
+    {
+      "id": "KJRD",
+      "name": "Kanjurmarg",
+      "lat": 19.1286526,
+      "lon": 72.9280394,
+      "aliases": "",
+      "osm": "node/619992025"
+    },
+    {
+      "id": "KJT",
+      "name": "Karjat",
+      "lat": 18.9099653,
+      "lon": 73.3209629,
+      "aliases": "",
+      "osm": "node/632358105"
+    },
+    {
+      "id": "KLMC",
+      "name": "Kalamboli",
+      "lat": 19.0344708,
+      "lon": 73.1149672,
+      "aliases": "",
+      "osm": "node/5936230491"
+    },
+    {
+      "id": "KLV",
+      "name": "Kelve Road",
+      "lat": 19.6240526,
+      "lon": 72.7911751,
+      "aliases": "",
+      "osm": "node/1149274800"
+    },
+    {
+      "id": "KLVA",
+      "name": "Kalva",
+      "lat": 19.1952243,
+      "lon": 72.9963331,
+      "aliases": "",
+      "osm": "node/619119023"
+    },
+    {
+      "id": "KLY",
+      "name": "Kelavli",
+      "lat": 18.8445449,
+      "lon": 73.3189117,
+      "aliases": "",
+      "osm": "node/6589829332"
+    },
+    {
+      "id": "KNDS",
+      "name": "Khandeshwar",
+      "lat": 19.0073498,
+      "lon": 73.0952827,
+      "aliases": "",
+      "osm": "node/1645802025"
+    },
+    {
+      "id": "KOPR",
+      "name": "Kopar",
+      "lat": 19.212423,
+      "lon": 73.078865,
+      "aliases": "",
+      "osm": "node/4548421106"
+    },
+    {
+      "id": "KPHN",
+      "name": "Kopar Khairane",
+      "lat": 19.1032454,
+      "lon": 73.011311,
+      "aliases": "Koparkhairane",
+      "osm": "way/655530301"
+    },
+    {
+      "id": "KSRA",
+      "name": "Kasara",
+      "lat": 19.6482325,
+      "lon": 73.4735887,
+      "aliases": "",
+      "osm": "node/823469291"
+    },
+    {
+      "id": "KYN",
+      "name": "Kalyan",
+      "lat": 19.2358216,
+      "lon": 73.1308101,
+      "aliases": "",
+      "osm": "node/4548442653"
+    },
+    {
+      "id": "LWJ",
+      "name": "Lowjee",
+      "lat": 18.809571,
+      "lon": 73.3351848,
+      "aliases": "",
+      "osm": "node/2629004879"
+    },
+    {
+      "id": "MANR",
+      "name": "Mansarovar",
+      "lat": 19.0164338,
+      "lon": 73.0806552,
+      "aliases": "",
+      "osm": "node/1435294693"
+    },
+    {
+      "id": "MBQ",
+      "name": "Mumbra",
+      "lat": 19.1899425,
+      "lon": 73.0230752,
+      "aliases": "",
+      "osm": "node/1369351423"
+    },
+    {
+      "id": "MDD",
+      "name": "Malad",
+      "lat": 19.1867193,
+      "lon": 72.8485884,
+      "aliases": "",
+      "osm": "node/3347034598"
+    },
+    {
+      "id": "MEL",
+      "name": "Marine Lines",
+      "lat": 18.945764,
+      "lon": 72.8237193,
+      "aliases": "",
+      "osm": "node/2630075006"
+    },
+    {
+      "id": "MIRA",
+      "name": "Mira Road",
+      "lat": 19.2816975,
+      "lon": 72.8560676,
+      "aliases": "",
+      "osm": "node/5122858908"
+    },
+    {
+      "id": "MLND",
+      "name": "Mulund",
+      "lat": 19.1721366,
+      "lon": 72.9566971,
+      "aliases": "",
+      "osm": "node/1643351703"
+    },
+    {
+      "id": "MM",
+      "name": "Mahim Junction",
+      "lat": 19.0406634,
+      "lon": 72.8466038,
+      "aliases": "",
+      "osm": "node/2630075005"
+    },
+    {
+      "id": "MMCT",
+      "name": "Mumbai Central",
+      "lat": 18.9695855,
+      "lon": 72.8193152,
+      "aliases": "",
+      "osm": "node/2630075008"
+    },
+    {
+      "id": "MNKD",
+      "name": "Mankhurd",
+      "lat": 19.0482086,
+      "lon": 72.9317136,
+      "aliases": "",
+      "osm": "node/2629720841"
+    },
+    {
+      "id": "MRU",
+      "name": "Matunga Road",
+      "lat": 19.0278149,
+      "lon": 72.8466813,
+      "aliases": "",
+      "osm": "node/4264462833"
+    },
+    {
+      "id": "MSD",
+      "name": "Masjid",
+      "lat": 18.9522949,
+      "lon": 72.8381771,
+      "aliases": "",
+      "osm": "node/12171122260"
+    },
+    {
+      "id": "MTN",
+      "name": "Matunga",
+      "lat": 19.0274356,
+      "lon": 72.8501467,
+      "aliases": "",
+      "osm": "node/4264457295"
+    },
+    {
+      "id": "MX",
+      "name": "Mahalaxmi",
+      "lat": 18.9825203,
+      "lon": 72.8242196,
+      "aliases": "Mahalakshmi",
+      "osm": "node/4264478427"
+    },
+    {
+      "id": "NEU",
+      "name": "Nerul",
+      "lat": 19.0335798,
+      "lon": 73.0181584,
+      "aliases": "",
+      "osm": "way/572630813"
+    },
+    {
+      "id": "NGTN",
+      "name": "Nagothane",
+      "lat": 18.540165,
+      "lon": 73.140671,
+      "aliases": "",
+      "osm": "way/1164802362"
+    },
+    {
+      "id": "NHU",
+      "name": "Nahur",
+      "lat": 19.1546402,
+      "lon": 72.9466525,
+      "aliases": "",
+      "osm": "node/2629791007"
+    },
+    {
+      "id": "NHVSV",
+      "name": "Nhava Sheva",
+      "lat": 18.898061,
+      "lon": 72.9877967,
+      "aliases": "",
+      "osm": "node/7555912828"
+    },
+    {
+      "id": "NIDI",
+      "name": "Nidi",
+      "lat": 18.4741031,
+      "lon": 73.1073063,
+      "aliases": "",
+      "osm": "node/6166890387"
+    },
+    {
+      "id": "NIG",
+      "name": "Naigaon",
+      "lat": 19.3510925,
+      "lon": 72.8465229,
+      "aliases": "",
+      "osm": "node/30518292"
+    },
+    {
+      "id": "NIIJ",
+      "name": "Nilaje",
+      "lat": 19.1544274,
+      "lon": 73.0803599,
+      "aliases": "",
+      "osm": "node/6568083089"
+    },
+    {
+      "id": "NRL",
+      "name": "Neral",
+      "lat": 19.0274308,
+      "lon": 73.3184369,
+      "aliases": "",
+      "osm": "node/658495933"
+    },
+    {
+      "id": "NSP",
+      "name": "Nalasopara",
+      "lat": 19.4178997,
+      "lon": 72.8185693,
+      "aliases": "Nalla Sopara Nalasopara",
+      "osm": "node/4306437059"
+    },
+    {
+      "id": "NVRD",
+      "name": "Navade Road",
+      "lat": 19.053846,
+      "lon": 73.1030296,
+      "aliases": "",
+      "osm": "node/6577361084"
+    },
+    {
+      "id": "OMB",
+      "name": "Umbermali",
+      "lat": 19.6283669,
+      "lon": 73.4229527,
+      "aliases": "",
+      "osm": "node/3956215626"
+    },
+    {
+      "id": "PBHD",
+      "name": "Prabhadevi",
+      "lat": 19.0074717,
+      "lon": 72.8358965,
+      "aliases": "Elphinstone Road",
+      "osm": "node/3462327239"
+    },
+    {
+      "id": "PDI",
+      "name": "Palasdhari",
+      "lat": 18.884354,
+      "lon": 73.3208133,
+      "aliases": "",
+      "osm": "node/678727741"
+    },
+    {
+      "id": "PEN",
+      "name": "Pen",
+      "lat": 18.735385,
+      "lon": 73.0868161,
+      "aliases": "",
+      "osm": "node/6166805034"
+    },
+    {
+      "id": "PL",
+      "name": "Lower Parel",
+      "lat": 18.99568,
+      "lon": 72.8302756,
+      "aliases": "",
+      "osm": "node/621911847"
+    },
+    {
+      "id": "PLG",
+      "name": "Palghar",
+      "lat": 19.6978882,
+      "lon": 72.7718888,
+      "aliases": "",
+      "osm": "node/30520640"
+    },
+    {
+      "id": "PNVL",
+      "name": "Panvel",
+      "lat": 18.9909392,
+      "lon": 73.120605,
+      "aliases": "",
+      "osm": "way/113688843"
+    },
+    {
+      "id": "PR",
+      "name": "Parel",
+      "lat": 19.0094817,
+      "lon": 72.8376614,
+      "aliases": "",
+      "osm": "node/3501418212"
+    },
+    {
+      "id": "RABE",
+      "name": "Rabale",
+      "lat": 19.1366355,
+      "lon": 73.0027822,
+      "aliases": "",
+      "osm": "way/655530295"
+    },
+    {
+      "id": "RJNPD",
+      "name": "Shematikhar",
+      "lat": 18.9092584,
+      "lon": 73.0158486,
+      "aliases": "Ranjanpada",
+      "osm": "node/7555912829"
+    },
+    {
+      "id": "RMAR",
+      "name": "Ram Mandir",
+      "lat": 19.151023,
+      "lon": 72.8501467,
+      "aliases": "",
+      "osm": "node/5909533857"
+    },
+    {
+      "id": "ROHA",
+      "name": "Roha",
+      "lat": 18.44658,
+      "lon": 73.1238722,
+      "aliases": "",
+      "osm": "node/571749457"
+    },
+    {
+      "id": "RRD",
+      "name": "Reay Road",
+      "lat": 18.9775506,
+      "lon": 72.8441011,
+      "aliases": "",
+      "osm": "node/2443096202"
+    },
+    {
+      "id": "RSYI",
+      "name": "Rasayani",
+      "lat": 18.8940449,
+      "lon": 73.1516427,
+      "aliases": "",
+      "osm": "node/5764017129"
+    },
+    {
+      "id": "SAH",
+      "name": "Saphale",
+      "lat": 19.5771316,
+      "lon": 72.8218812,
+      "aliases": "",
+      "osm": "node/529961821"
+    },
+    {
+      "id": "SHAD",
+      "name": "Shahad",
+      "lat": 19.2435838,
+      "lon": 73.1580746,
+      "aliases": "",
+      "osm": "node/2143751910"
+    },
+    {
+      "id": "SHLU",
+      "name": "Shelu",
+      "lat": 19.063516,
+      "lon": 73.3179261,
+      "aliases": "",
+      "osm": "node/1078212032"
+    },
+    {
+      "id": "SIN",
+      "name": "Sion",
+      "lat": 19.0465213,
+      "lon": 72.8632834,
+      "aliases": "",
+      "osm": "node/2663263713"
+    },
+    {
+      "id": "SMNE",
+      "name": "Somatne",
+      "lat": 18.950646,
+      "lon": 73.14548,
+      "aliases": "",
+      "osm": "node/6568083299"
+    },
+    {
+      "id": "SNCR",
+      "name": "Sanpada",
+      "lat": 19.0659856,
+      "lon": 73.0095329,
+      "aliases": "",
+      "osm": "way/151769149"
+    },
+    {
+      "id": "SNRD",
+      "name": "Sandhurst Road",
+      "lat": 18.9609243,
+      "lon": 72.8393719,
+      "aliases": "",
+      "osm": "node/2178163576"
+    },
+    {
+      "id": "STC",
+      "name": "Santacruz",
+      "lat": 19.0815223,
+      "lon": 72.8417565,
+      "aliases": "Santa Cruz",
+      "osm": "node/213030714"
+    },
+    {
+      "id": "SVE",
+      "name": "Sewri",
+      "lat": 18.9987796,
+      "lon": 72.8544218,
+      "aliases": "",
+      "osm": "node/700886180"
+    },
+    {
+      "id": "SWDV",
+      "name": "Seawoods–Darave",
+      "lat": 19.0218192,
+      "lon": 73.0191588,
+      "aliases": "Seawoods Darave Karave",
+      "osm": "node/12189351683"
+    },
+    {
+      "id": "THK",
+      "name": "Thakurli",
+      "lat": 19.2262813,
+      "lon": 73.0980174,
+      "aliases": "",
+      "osm": "node/2441333898"
+    },
+    {
+      "id": "THS",
+      "name": "Thansit",
+      "lat": 19.5503368,
+      "lon": 73.3522404,
+      "aliases": "",
+      "osm": "node/3956337841"
+    },
+    {
+      "id": "TKNG",
+      "name": "Tilak Nagar",
+      "lat": 19.0657855,
+      "lon": 72.8904702,
+      "aliases": "",
+      "osm": "node/3530903066"
+    },
+    {
+      "id": "TLA",
+      "name": "Titwala",
+      "lat": 19.2963827,
+      "lon": 73.2030656,
+      "aliases": "",
+      "osm": "node/276561622"
+    },
+    {
+      "id": "TNA",
+      "name": "Thane",
+      "lat": 19.186483,
+      "lon": 72.9757664,
+      "aliases": "",
+      "osm": "node/246582717"
+    },
+    {
+      "id": "TPND",
+      "name": "Taloja Panchanand",
+      "lat": 19.079148,
+      "lon": 73.0878581,
+      "aliases": "Taloje Panchanand",
+      "osm": "node/6568083144"
+    },
+    {
+      "id": "TRGHR",
+      "name": "Targhar",
+      "lat": 18.9899416,
+      "lon": 73.0343309,
+      "aliases": "",
+      "osm": "way/648990356"
+    },
+    {
+      "id": "TUH",
+      "name": "Turbhe",
+      "lat": 19.0761453,
+      "lon": 73.0176991,
+      "aliases": "",
+      "osm": "way/655144828"
+    },
+    {
+      "id": "ULNR",
+      "name": "Ulhasnagar",
+      "lat": 19.2178804,
+      "lon": 73.1630778,
+      "aliases": "",
+      "osm": "node/5764394234"
+    },
+    {
+      "id": "UNCT",
+      "name": "Uran",
+      "lat": 18.8784186,
+      "lon": 72.9525001,
+      "aliases": "Uran City",
+      "osm": "node/5442005137"
+    },
+    {
+      "id": "UOI",
+      "name": "Umroli",
+      "lat": 19.7557614,
+      "lon": 72.7604506,
+      "aliases": "",
+      "osm": "node/1149274390"
+    },
+    {
+      "id": "VDLR",
+      "name": "Wadala Road",
+      "lat": 19.0161355,
+      "lon": 72.8589129,
+      "aliases": "Vadala",
+      "osm": "way/1343435452"
+    },
+    {
+      "id": "VGI",
+      "name": "Vangani",
+      "lat": 19.0943323,
+      "lon": 73.3008946,
+      "aliases": "",
+      "osm": "node/5764392819"
+    },
+    {
+      "id": "VGN",
+      "name": "Vangaon",
+      "lat": 19.8829908,
+      "lon": 72.7631658,
+      "aliases": "",
+      "osm": "node/5498811103"
+    },
+    {
+      "id": "VK",
+      "name": "Vikhroli",
+      "lat": 19.1114795,
+      "lon": 72.928021,
+      "aliases": "",
+      "osm": "node/4258411797"
+    },
+    {
+      "id": "VLDI",
+      "name": "Vithalwadi",
+      "lat": 19.2284195,
+      "lon": 73.1491076,
+      "aliases": "",
+      "osm": "node/276562459"
+    },
+    {
+      "id": "VLP",
+      "name": "Vile Parle",
+      "lat": 19.0999098,
+      "lon": 72.8440038,
+      "aliases": "",
+      "osm": "node/2630075010"
+    },
+    {
+      "id": "VR",
+      "name": "Virar",
+      "lat": 19.4553059,
+      "lon": 72.811816,
+      "aliases": "",
+      "osm": "node/2630768140"
+    },
+    {
+      "id": "VSD",
+      "name": "Vasind",
+      "lat": 19.4065089,
+      "lon": 73.2674683,
+      "aliases": "",
+      "osm": "node/823469932"
+    },
+    {
+      "id": "VSH",
+      "name": "Vashi",
+      "lat": 19.0632912,
+      "lon": 72.998762,
+      "aliases": "",
+      "osm": "way/151768155"
+    },
+    {
+      "id": "VTN",
+      "name": "Vaitarna",
+      "lat": 19.5186517,
+      "lon": 72.8499772,
+      "aliases": "",
+      "osm": "node/529961817"
+    },
+    {
+      "id": "VVH",
+      "name": "Vidyavihar",
+      "lat": 19.0795422,
+      "lon": 72.8971169,
+      "aliases": "",
+      "osm": "node/620013256"
+    }
+  ],
+  "corridors": [
+    [
+      "western",
+      "Western",
+      [
+        "CCG",
+        "MEL",
+        "CYR",
+        "GTR",
+        "MMCT",
+        "MX",
+        "PL",
+        "PBHD",
+        "DR",
+        "MRU",
+        "MM",
+        "BA",
+        "KHAR",
+        "STC",
+        "VLP",
+        "ADH",
+        "JOS",
+        "RMAR",
+        "GMN",
+        "MDD",
+        "KILE",
+        "BVI",
+        "DIC",
+        "MIRA",
+        "BYR",
+        "NIG",
+        "BSR",
+        "NSP",
+        "VR",
+        "VTN",
+        "SAH",
+        "KLV",
+        "PLG",
+        "UOI",
+        "BOR",
+        "VGN",
+        "DRD"
+      ]
+    ],
+    [
+      "central-kasara",
+      "Central · Kasara",
+      [
+        "CSMT",
+        "MSD",
+        "SNRD",
+        "BY",
+        "CHG",
+        "CRD",
+        "PR",
+        "DR",
+        "MTN",
+        "SIN",
+        "CLA",
+        "VVH",
+        "GC",
+        "VK",
+        "KJRD",
+        "BND",
+        "NHU",
+        "MLND",
+        "TNA",
+        "KLVA",
+        "MBQ",
+        "DIVA",
+        "KOPR",
+        "DI",
+        "THK",
+        "KYN",
+        "SHAD",
+        "ABY",
+        "TLA",
+        "KDV",
+        "VSD",
+        "ASO",
+        "ATG",
+        "THS",
+        "KE",
+        "OMB",
+        "KSRA"
+      ]
+    ],
+    [
+      "central-khopoli",
+      "Central · Karjat / Khopoli",
+      [
+        "CSMT",
+        "MSD",
+        "SNRD",
+        "BY",
+        "CHG",
+        "CRD",
+        "PR",
+        "DR",
+        "MTN",
+        "SIN",
+        "CLA",
+        "VVH",
+        "GC",
+        "VK",
+        "KJRD",
+        "BND",
+        "NHU",
+        "MLND",
+        "TNA",
+        "KLVA",
+        "MBQ",
+        "DIVA",
+        "KOPR",
+        "DI",
+        "THK",
+        "KYN",
+        "VLDI",
+        "ULNR",
+        "ABH",
+        "BUD",
+        "VGI",
+        "SHLU",
+        "NRL",
+        "BVS",
+        "KJT",
+        "PDI",
+        "KLY",
+        "DLV",
+        "LWJ",
+        "KHPI"
+      ]
+    ],
+    [
+      "harbour-panvel",
+      "Harbour · CSMT–Panvel",
+      [
+        "CSMT",
+        "MSD",
+        "SNRD",
+        "DKRD",
+        "RRD",
+        "CTGN",
+        "SVE",
+        "VDLR",
+        "GTBN",
+        "CHF",
+        "CLA",
+        "TKNG",
+        "CMBR",
+        "GV",
+        "MNKD",
+        "VSH",
+        "SNCR",
+        "JNJ",
+        "NEU",
+        "SWDV",
+        "BEPR",
+        "KHAG",
+        "MANR",
+        "KNDS",
+        "PNVL"
+      ]
+    ],
+    [
+      "harbour-goregaon",
+      "Harbour · CSMT–Goregaon",
+      [
+        "CSMT",
+        "MSD",
+        "SNRD",
+        "DKRD",
+        "RRD",
+        "CTGN",
+        "SVE",
+        "VDLR",
+        "KCE",
+        "MM",
+        "BA",
+        "KHAR",
+        "STC",
+        "VLP",
+        "ADH",
+        "JOS",
+        "RMAR",
+        "GMN"
+      ]
+    ],
+    [
+      "harbour-panvel-goregaon",
+      "Harbour · Panvel–Goregaon",
+      [
+        "PNVL",
+        "KNDS",
+        "MANR",
+        "KHAG",
+        "BEPR",
+        "SWDV",
+        "NEU",
+        "JNJ",
+        "SNCR",
+        "VSH",
+        "MNKD",
+        "GV",
+        "CMBR",
+        "TKNG",
+        "CLA",
+        "CHF",
+        "GTBN",
+        "VDLR",
+        "KCE",
+        "MM",
+        "BA",
+        "KHAR",
+        "STC",
+        "VLP",
+        "ADH",
+        "JOS",
+        "RMAR",
+        "GMN"
+      ]
+    ],
+    [
+      "trans-panvel",
+      "Trans-Harbour · Thane–Panvel",
+      [
+        "TNA",
+        "DIGH",
+        "AIRL",
+        "RABE",
+        "GNSL",
+        "KPHN",
+        "TUH",
+        "JNJ",
+        "NEU",
+        "SWDV",
+        "BEPR",
+        "KHAG",
+        "MANR",
+        "KNDS",
+        "PNVL"
+      ]
+    ],
+    [
+      "trans-vashi",
+      "Trans-Harbour · Thane–Vashi",
+      [
+        "TNA",
+        "DIGH",
+        "AIRL",
+        "RABE",
+        "GNSL",
+        "KPHN",
+        "TUH",
+        "SNCR",
+        "VSH"
+      ]
+    ],
+    [
+      "port-nerul",
+      "Uran / Port · Nerul–Uran",
+      [
+        "NEU",
+        "SWDV",
+        "TRGHR",
+        "BMDR",
+        "KARP",
+        "GAVAN",
+        "RJNPD",
+        "NHVSV",
+        "DRNGR",
+        "UNCT"
+      ]
+    ],
+    [
+      "port-belapur",
+      "Uran / Port · Belapur–Uran",
+      [
+        "BEPR",
+        "TRGHR",
+        "BMDR",
+        "KARP",
+        "GAVAN",
+        "RJNPD",
+        "NHVSV",
+        "DRNGR",
+        "UNCT"
+      ]
+    ],
+    [
+      "vasai-roha",
+      "Vasai–Diva–Roha · MEMU",
+      [
+        "BSR",
+        "JCNR",
+        "KARD",
+        "KHBV",
+        "BIRD",
+        "KOPR",
+        "DIVA",
+        "DTVL",
+        "NIIJ",
+        "TPND",
+        "NVRD",
+        "KLMC",
+        "PNVL",
+        "SMNE",
+        "RSYI",
+        "APTA",
+        "JITE",
+        "HMRR",
+        "PEN",
+        "KASU",
+        "NGTN",
+        "NIDI",
+        "ROHA"
+      ]
+    ]
+  ]
+}
