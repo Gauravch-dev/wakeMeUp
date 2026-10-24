@@ -12,6 +12,8 @@ import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.os.SystemClock
+import android.os.PowerManager
+import android.app.ActivityManager
 import android.provider.OpenableColumns
 import android.provider.Settings as AndroidSettings
 import androidx.activity.ComponentActivity
@@ -26,6 +28,7 @@ import androidx.core.content.IntentCompat
 import androidx.core.net.toUri
 import androidx.core.view.WindowCompat
 import androidx.lifecycle.lifecycleScope
+import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import kotlinx.coroutines.*
 import java.io.File
@@ -47,6 +50,8 @@ class MainActivity : ComponentActivity() {
     private var previewJob: Job? = null
     private var pendingLeg = 0
     private var pendingStart = false
+    private var pendingRecovery by mutableStateOf(false)
+    private var backgroundNotice by mutableStateOf<String?>(null)
     private val permissions = registerForActivityResult(ActivityResultContracts.RequestMultiplePermissions()) {
         if (pendingStart) {
             pendingStart = false
@@ -96,12 +101,19 @@ class MainActivity : ComponentActivity() {
             }
             WakeMeUpTheme(isDark) {
                 val state by JourneySession.state.collectAsStateWithLifecycle()
+                val report by JourneySession.lastAlertReport.collectAsStateWithLifecycle()
+                val monitoringReport by JourneySession.lastMonitoringReport.collectAsStateWithLifecycle()
+                val running by JourneySession.isRunning.collectAsStateWithLifecycle()
+                LaunchedEffect(state.status, state.message, running) {
+                    if (!running && state.status == TrackingStatus.ENDED) setupMessage = state.message
+                }
                 WakeMeUpScreen(
                     sourceId = sourceId, destinationId = destinationId, selectedPlanId = selectedPlanId,
                     soundName = soundName, hasCustomSound = soundUri.isNotEmpty(),
-                    settingsLoaded = settingsLoaded, importingSound = importingSound, dark = isDark,
-                    journey = state, active = JourneySession.running,
+                    settingsLoaded = settingsLoaded && !pendingRecovery, importingSound = importingSound, dark = isDark,
+                    journey = state, active = running,
                     nowMs = nowMs, message = setupMessage,
+                    lastAlertReport = report, lastMonitoringReport = monitoringReport, backgroundNotice = backgroundNotice,
                     actions = JourneyUiActions(
                         source = { sourceId = it; selectedPlanId = ""; saveSettings() },
                         destination = { destinationId = it; selectedPlanId = ""; saveSettings() },
@@ -114,10 +126,22 @@ class MainActivity : ComponentActivity() {
                         defaultSound = ::resetSound, testSound = ::testAlarm, stopPreview = ::stopPreview,
                         clearMessage = { setupMessage = null },
                         appSettings = { startActivity(Intent(AndroidSettings.ACTION_APPLICATION_DETAILS_SETTINGS, "package:$packageName".toUri())) },
+                        batterySettings = {
+                            runCatching { startActivity(Intent(AndroidSettings.ACTION_IGNORE_BATTERY_OPTIMIZATION_SETTINGS)) }
+                                .onFailure { startActivity(Intent(AndroidSettings.ACTION_APPLICATION_DETAILS_SETTINGS, "package:$packageName".toUri())) }
+                        },
                         locationSettings = { startActivity(Intent(AndroidSettings.ACTION_LOCATION_SOURCE_SETTINGS)) },
                         notificationSettings = {
                             startActivity(Intent(AndroidSettings.ACTION_APP_NOTIFICATION_SETTINGS)
                                 .putExtra(AndroidSettings.EXTRA_APP_PACKAGE, packageName))
+                        },
+                        copyAlertReport = {
+                            getSystemService(android.content.ClipboardManager::class.java).setPrimaryClip(
+                                android.content.ClipData.newPlainText("wakemeup last alert", JourneySession.lastAlertReport.value))
+                        },
+                        copyMonitoringReport = {
+                            getSystemService(android.content.ClipboardManager::class.java).setPrimaryClip(
+                                android.content.ClipData.newPlainText("wakemeup monitoring details", JourneySession.lastMonitoringReport.value))
                         },
                         attribution = { startActivity(Intent(Intent.ACTION_VIEW, "https://www.openstreetmap.org/copyright".toUri())) },
                     ),
@@ -128,8 +152,46 @@ class MainActivity : ComponentActivity() {
 
     override fun onResume() {
         super.onResume()
-        if (!JourneySession.running && getSharedPreferences("session", MODE_PRIVATE).getBoolean("unfinished", false))
-            setupMessage = "Your previous monitoring session was interrupted. Start a new journey before resting."
+        val session = getSharedPreferences("session", MODE_PRIVATE)
+        JourneySession.publishReport(session.getString("last_alert_report", "").orEmpty())
+        JourneySession.publishMonitoringReport(session.getString("last_monitoring_report", "").orEmpty())
+        val restricted = Build.VERSION.SDK_INT >= 28 && getSystemService(ActivityManager::class.java).isBackgroundRestricted
+        val optimized = !getSystemService(PowerManager::class.java).isIgnoringBatteryOptimizations(packageName)
+        backgroundNotice = when {
+            restricted -> "Android reports background restrictions for wakemeup. Allow background activity in App settings before resting."
+            optimized -> "Battery optimization is enabled for wakemeup. Review battery settings for long journeys; Battery Saver being off does not disable app-specific restrictions."
+            else -> null
+        }
+        if (!JourneySession.running && !pendingRecovery && session.getBoolean("unfinished", false)) {
+            pendingRecovery = true
+            lifecycleScope.launch {
+                try {
+                    val store = JourneyRecoveryStore(this@MainActivity)
+                    val saved = store.load()
+                    val exit = withContext(Dispatchers.IO) { JourneyDiagnostics.latestExit(this@MainActivity, saved) }
+                    if (JourneySession.running) return@launch
+                    withContext(Dispatchers.IO) {
+                        JourneyDiagnostics.record(this@MainActivity, saved, "The app was reopened after monitoring was interrupted.", exit)
+                    }
+                    // Reopening is a visible, user-initiated opportunity to recover if the
+                    // OS has not restarted the sticky service. Never undo an explicit stop.
+                    if (saved != null && exit?.userStopped != true &&
+                        saved.remainingMs(SystemClock.elapsedRealtime(), JourneyRecoveryStore.bootCount(this@MainActivity)) > 0 &&
+                        saved.plan() != null && store.load()?.id == saved.id && !JourneySession.running &&
+                        lifecycle.currentState.isAtLeast(Lifecycle.State.RESUMED)) {
+                        ContextCompat.startForegroundService(this@MainActivity,
+                            Intent(this@MainActivity, JourneyService::class.java).setAction(JourneyService.ACTION_RESUME)
+                                .putExtra("session_id", saved.id))
+                        setupMessage = null
+                    } else if (!JourneySession.running) {
+                        setupMessage = "Monitoring was interrupted. You are not being monitored. Start a new journey before resting. See Monitoring details in the info menu."
+                    }
+                } catch (error: Exception) {
+                    if (error is CancellationException) throw error
+                    setupMessage = "Monitoring could not resume. Check permissions and battery settings, then start your journey again."
+                } finally { pendingRecovery = false }
+            }
+        }
     }
     private fun selectedPlan(): JourneyPlan? {
         val plans = MumbaiNetwork.plans(sourceId, destinationId)

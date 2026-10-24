@@ -35,8 +35,8 @@ class AlarmPlayer(context: Context, private val onFallback: () -> Unit = {}) {
         active = true
         runCatching { audio.requestAudioFocus(focus) }
         val default = runCatching { RingtoneManager.getActualDefaultRingtoneUri(appContext, RingtoneManager.TYPE_ALARM)?.toString() }.getOrNull()
-        candidates = listOfNotNull(soundUri.takeIf { it.isNotBlank() }, default,
-            "android.resource://${appContext.packageName}/${R.raw.fallback_alarm}").distinct()
+        val bundled = "android.resource://${appContext.packageName}/${R.raw.fallback_alarm}"
+        candidates = listOfNotNull(soundUri.takeIf { it.isNotBlank() }, default, bundled).distinct()
         nextCandidate = 0
         playNext()
         runCatching { vibrator.vibrate(VibrationEffect.createWaveform(longArrayOf(0, 700, 350, 700, 700), 0)) }

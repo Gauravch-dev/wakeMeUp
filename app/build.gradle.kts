@@ -11,8 +11,8 @@ android {
         applicationId = "com.laststop.app"
         minSdk = 26
         targetSdk = 36
-        versionCode = 7
-        versionName = "0.5.0"
+        versionCode = 10
+        versionName = "0.5.3"
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17

@@ -16,7 +16,7 @@ class StationWakeUpTest {
     @Test fun wakeUpUsesPreviousStationEvenWhenDestinationIsManyKilometresAway() {
         val early = engine().accept(route.simulatedFix(route.cumulative[1] - 500, 1000), 1000)
         assertEquals(TrackingStatus.TRACKING, early.status)
-        val approach = engine().accept(route.simulatedFix(route.cumulative[1] - 200, 1000), 1000)
+        val approach = engine().confirmAt(route.simulatedFix(route.cumulative[1] - 200, 1000))
         assertEquals(AlarmKind.APPROACH, approach.alarmKind)
         assertTrue(approach.remainingMeters!! > 8000)
         assertTrue(approach.message.contains("Approaching Previous station"))
@@ -26,14 +26,14 @@ class StationWakeUpTest {
     @Test fun passingTheWakeStationBetweenReadingsCannotMissTheAlarm() {
         val engine = engine()
         engine.accept(route.simulatedFix(route.cumulative[1] - 600, 1000), 1000)
-        val alarm = engine.accept(route.simulatedFix(route.cumulative[1] + 600, 41_000), 41_000)
+        val alarm = engine.confirmAt(route.simulatedFix(route.cumulative[1] + 600, 41_000))
         assertEquals(AlarmKind.APPROACH, alarm.alarmKind)
         assertTrue(alarm.message.contains("reached or passed Previous station"))
         assertTrue(alarm.trustedProgress!! < route.cumulative.last())
     }
 
     @Test fun startingMonitoringAfterTheWakeStationSoundsImmediately() {
-        val alarm = engine().accept(route.simulatedFix(route.cumulative[1] + 1000, 1000), 1000)
+        val alarm = engine().confirmAt(route.simulatedFix(route.cumulative[1] + 1000, 1000))
         assertEquals(AlarmKind.APPROACH, alarm.alarmKind)
     }
 
@@ -60,7 +60,7 @@ class StationWakeUpTest {
     @Test fun poorLocationCannotPretendTheWakeStationHasBeenReached() {
         val station = stations[1]
         val state = engine().accept(Fix(station.lat, station.lon, 500.0, 1000), 1000)
-        assertEquals(TrackingStatus.UNCERTAIN, state.status)
+        assertEquals(TrackingStatus.ACQUIRING, state.status)
         assertNull(state.alarmKind)
         assertNull(state.trustedProgress)
     }
@@ -72,7 +72,7 @@ class StationWakeUpTest {
                 val trip = JourneyPlan(listOf(leg))
                 assertEquals(ids[ids.lastIndex - 1], leg.wakeStation.id)
                 val station = leg.wakeStation
-                val state = JourneyEngine(trip, 0, false, 0).accept(Fix(station.lat, station.lon, 10.0, 1000), 1000)
+                val state = JourneyEngine(trip, 0, false, 0).confirmAt(Fix(station.lat, station.lon, 10.0, 1000))
                 assertEquals("${corridor.name}: ${ids.first()} → ${ids.last()}", AlarmKind.APPROACH, state.alarmKind)
             }
         }
@@ -82,7 +82,7 @@ class StationWakeUpTest {
         val trip = MumbaiNetwork.plans("BVI", "KYN").first()
         trip.legs.forEachIndexed { index, leg ->
             val station = leg.wakeStation
-            val state = JourneyEngine(trip, index, false, 0).accept(Fix(station.lat, station.lon, 10.0, 1000), 1000)
+            val state = JourneyEngine(trip, index, false, 0).confirmAt(Fix(station.lat, station.lon, 10.0, 1000))
             assertEquals(AlarmKind.APPROACH, state.alarmKind)
             assertEquals(leg.route.stations.last().id, state.destination.id)
             if (index < trip.legs.lastIndex) assertTrue(state.message.contains("change trains"))

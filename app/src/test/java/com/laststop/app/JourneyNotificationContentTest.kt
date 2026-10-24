@@ -56,7 +56,7 @@ class JourneyNotificationContentTest {
 
     @Test fun alarmIsAnExplicitWarningWithoutALivePositionOrPromotion() {
         val engine = JourneyEngine(plan, 0, false, 0)
-        val approach = engine.accept(route.simulatedFix(route.cumulative[route.stations.lastIndex - 1] - 200, 1000), 1000)
+        val approach = engine.confirmAt(route.simulatedFix(route.cumulative[route.stations.lastIndex - 1] - 200, 1000))
         val content = JourneyNotificationContent.from(approach, 1000)
         assertEquals("Wake up · Vashi", content.title)
         assertFalse(content.promote)
@@ -69,7 +69,7 @@ class JourneyNotificationContentTest {
         val state = tracking().copy(status = TrackingStatus.ALARM, alarmKind = AlarmKind.TRACKING,
             message = "Location was lost near your stop. Check your destination now.")
         val content = JourneyNotificationContent.from(state, 70_000)
-        assertTrue(content.title.startsWith("Check your journey"))
+        assertTrue(content.title.startsWith("Silent monitoring warning"))
         assertEquals(state.message, content.summary)
         assertFalse(content.promote)
     }

@@ -14,7 +14,7 @@ class MumbaiNetworkTest {
         assertEquals(TrackingStatus.TRACKING, engine.accept(Fix(start.lat, start.lon, 10.0, 1000), 1000).status)
         val target = reverse.destination
         assertEquals(TrackingStatus.ALARM, JourneyEngine(reverse, 0, false, 0)
-            .accept(Fix(target.lat, target.lon, 10.0, 1000), 1000).status)
+            .confirmAt(Fix(target.lat, target.lon, 10.0, 1000)).status)
     }
 
     @Test fun westernAndCentralBranchesHaveTheExpectedEndpoints() {
@@ -32,7 +32,7 @@ class MumbaiNetworkTest {
         val interchange = plan.legs.first().route.stations.last()
         assertNotEquals(plan.destination.id, interchange.id)
         val engine = JourneyEngine(plan, 0, false, 0)
-        val state = engine.accept(Fix(interchange.lat, interchange.lon, 10.0, 1000), 1000)
+        val state = engine.confirmAt(Fix(interchange.lat, interchange.lon, 10.0, 1000))
         assertEquals(TrackingStatus.ALARM, state.status)
         assertEquals(AlarmKind.APPROACH, state.alarmKind)
         assertTrue(state.message.contains("change trains"))

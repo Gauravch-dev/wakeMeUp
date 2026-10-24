@@ -22,32 +22,33 @@ class JourneyEngineTest {
     }
 
     @Test fun sanpadaTriggersAnEarlyVashiAlarm() {
-        val state = engine(9, false, 0).accept(at(8, 1000), 1000)
+        val state = engine(9, false, 0).confirmAt(at(8, 1000))
         assertEquals(TrackingStatus.ALARM, state.status)
         assertTrue(state.message.contains("Vashi"))
     }
 
     @Test fun earlierDestinationUsesItsOwnPosition() {
-        val state = engine(6, false, 0).accept(at(5, 1000), 1000)
+        val state = engine(6, false, 0).confirmAt(at(5, 1000))
         assertEquals(TrackingStatus.ALARM, state.status)
         assertTrue(state.message.contains("Nerul"))
     }
 
     @Test fun poorAccuracyDoesNotClaimTracking() {
         val engine = engine(9, false, 0)
-        assertEquals(TrackingStatus.UNCERTAIN, engine.accept(at(0, 1000, 800.0), 1000).status)
+        assertEquals(TrackingStatus.ACQUIRING, engine.accept(at(0, 1000, 800.0), 1000).status)
         assertEquals(TrackingStatus.ALARM, engine.tick(61_000).status)
     }
 
     @Test fun staleAndFutureFixesAreRejected() {
         assertEquals(TrackingStatus.UNCERTAIN, engine(9, false, 0).accept(at(0, 1000), 30_000).status)
-        assertEquals(TrackingStatus.UNCERTAIN, engine(9, false, 0).accept(at(0, 5000), 1000).status)
+        assertEquals(TrackingStatus.ACQUIRING, engine(9, false, 0).accept(at(0, 5000), 1000).status)
     }
 
-    @Test fun noLocationAtAllProducesAnAudibleWarningDecision() {
+    @Test fun noLocationAtAllProducesASilentMonitoringWarning() {
         val engine = engine(9, false, 0)
         assertEquals(TrackingStatus.UNCERTAIN, engine.tick(20_000).status)
         assertEquals(TrackingStatus.ALARM, engine.tick(60_000).status)
+        assertFalse(engine.state.isArrivalAlarm)
     }
 
     @Test fun lostLocationNearDestinationWarnsEarly() {
@@ -77,13 +78,14 @@ class JourneyEngineTest {
     @Test fun oneImpossibleGpsJumpCannotTriggerArrival() {
         val engine = engine(9, false, 0)
         engine.accept(at(0, 1000), 1000)
-        assertEquals(TrackingStatus.UNCERTAIN, engine.accept(at(9, 2000), 2000).status)
+        assertEquals(TrackingStatus.TRACKING, engine.accept(at(9, 2000), 2000).status)
+        assertEquals(0.0, engine.state.trustedProgress!!, 1.0)
         assertEquals(TrackingStatus.TRACKING, engine.accept(at(0, 3000), 3000).status)
     }
 
     @Test fun fixFarAwayFromCorridorIsNotAccepted() {
         val state = engine(9, false, 0).accept(Fix(19.2, 72.8, 10.0, 1000), 1000)
-        assertEquals(TrackingStatus.UNCERTAIN, state.status)
+        assertEquals(TrackingStatus.ACQUIRING, state.status)
         assertNull(state.progress)
     }
 
@@ -97,22 +99,22 @@ class JourneyEngineTest {
 
     @Test fun alarmStaysLatchedUntilJourneyEnds() {
         val engine = engine(9, false, 0)
-        engine.accept(at(8, 1000), 1000)
-        assertEquals(TrackingStatus.ALARM, engine.accept(at(0, 2000), 2000).status)
-        assertEquals(TrackingStatus.ALARM, engine.tick(3000).status)
+        engine.confirmAt(at(8, 1000))
+        assertEquals(TrackingStatus.ALARM, engine.accept(at(0, 10_000), 10_000).status)
+        assertEquals(TrackingStatus.ALARM, engine.tick(11_000).status)
     }
 
     @Test fun invalidNumbersAndOutOfOrderLocationsCannotBeTrusted() {
         val engine = engine(9, false, 0)
-        assertEquals(TrackingStatus.UNCERTAIN, engine.accept(Fix(Double.NaN, 73.0, 5.0, 1000), 1000).status)
+        assertEquals(TrackingStatus.ACQUIRING, engine.accept(Fix(Double.NaN, 73.0, 5.0, 1000), 1000).status)
         engine.accept(at(0, 2000), 2000)
-        assertEquals(TrackingStatus.UNCERTAIN, engine.accept(at(0, 1000), 2500).status)
+        assertEquals(TrackingStatus.TRACKING, engine.accept(at(0, 1000), 2500).status)
     }
 
     @Test fun simulatedJourneyReachesAlarmWithoutRealLocation() {
         val engine = engine(9, true, 0)
         repeat(37) { step ->
-            val time = (step + 1) * 1000L
+            val time = (step + 1) * 5000L
             engine.accept(route.simulatedFix(route.cumulative.last() * step / 36, time), time)
         }
         assertEquals(TrackingStatus.ALARM, engine.state.status)

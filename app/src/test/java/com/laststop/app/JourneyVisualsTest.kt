@@ -29,9 +29,9 @@ class JourneyVisualsTest {
         val engine = JourneyEngine(plan, 0, false, 0)
         val first = engine.accept(fix(2000.0, 1000), 1000)
         val rejected = engine.accept(fix(route.cumulative.last(), 2000), 2000)
-        assertEquals(TrackingStatus.UNCERTAIN, rejected.status)
+        assertEquals(TrackingStatus.TRACKING, rejected.status)
         assertEquals(first.trustedProgress, rejected.trustedProgress)
-        assertFalse(JourneyVisuals.fresh(rejected, 2000))
+        assertTrue(JourneyVisuals.fresh(rejected, 2000)) // The earlier confirmed fix is still fresh.
     }
 
     @Test fun reverseDirectionCheckCannotMoveConfirmedProgressBackwards() {
@@ -56,11 +56,11 @@ class JourneyVisualsTest {
 
     @Test fun approachAlarmDoesNotPretendTheTrainHasArrived() {
         val engine = JourneyEngine(plan, 0, false, 0)
-        val approach = engine.accept(fix(route.cumulative[route.stations.lastIndex - 1] - 200.0, 1000), 1000)
+        val approach = engine.confirmAt(fix(route.cumulative[route.stations.lastIndex - 1] - 200.0, 1000))
         assertEquals(AlarmKind.APPROACH, approach.alarmKind)
         assertTrue(JourneyVisuals.fraction(approach)!! < 1f)
-        assertTrue(JourneyVisuals.fresh(approach, 2000))
-        assertFalse(JourneyVisuals.fresh(approach, 22_000))
+        assertTrue(JourneyVisuals.fresh(approach, 7000))
+        assertFalse(JourneyVisuals.fresh(approach, 27_000))
     }
 
     @Test fun everyNewLegStartsWithAnUnknownPosition() {

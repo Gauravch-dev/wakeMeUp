@@ -3,7 +3,7 @@
 ![wakemeup — Your stop, not a stopwatch.](docs/assets/hero.svg)
 
 <p align="center">
-  <img alt="Version 0.5.0" src="https://img.shields.io/badge/version-0.5.0-2E5D43?style=flat-square" />
+  <img alt="Version 0.5.3" src="https://img.shields.io/badge/version-0.5.3-2E5D43?style=flat-square" />
   <img alt="Android 8.0 and above" src="https://img.shields.io/badge/Android-8.0%2B-2E5D43?style=flat-square" />
   <img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-2.1.20-7F52FF?style=flat-square" />
   <img alt="Jetpack Compose" src="https://img.shields.io/badge/UI-Jetpack_Compose-426B52?style=flat-square" />
@@ -16,7 +16,9 @@
 
 **At a glance:** 142 Mumbai-region stations · 11 corridor variants · custom alarm sounds · light/dark themes · live journey notifications · no account or backend.
 
-**Project status:** working personal MVP, version **0.5.0**. The station-based update has **56 passing local unit tests**. GPS timing, battery behaviour and device-specific notifications still need real-journey testing. This is an assistive alarm, not guaranteed protection against missing a stop.
+**Project status:** working personal MVP, version **0.5.3**, with **93 passing local unit tests**. GPS timing, battery behaviour and device-specific notifications still need real-journey testing. This is an assistive alarm, not guaranteed protection against missing a stop.
+
+**Latest update — journey recovery:** active journey instructions and alarm transitions are saved locally. A sticky foreground service lets Android attempt recovery after process death; reopening the app can also recover an eligible interrupted journey. Fresh tracking requires two trusted readings, and restarting does not extend the original six-hour limit. Battery-settings shortcuts and local **Monitoring details** help investigate interruptions. GPS, direction and monitoring warnings remain **silent**; sound and vibration are reserved for a confirmed station approach.
 
 [Why it exists](#why-it-exists) · [Features](#features) · [How it works](#how-it-works) · [Setup](#setup-and-installation) · [Architecture](#architecture) · [Tests](#testing-and-validation) · [Limitations](#limitations) · [GitHub upload guide](docs/GITHUB_SETUP.md)
 
@@ -39,7 +41,7 @@ For Panvel → Vashi, it identifies **Sanpada** as the preceding station on the 
 | Journey duration changes | Recalculate or accept an uncertain wake-up time. | The wake-up point stays tied to the route. |
 | Preparing to get off | Work out how much time to leave yourself. | Wake near the station before your destination. |
 | No mobile internet | A clock alarm still works. | Bundled routes and available device location work without an app data connection. |
-| Location becomes unreliable | A clock alarm does not depend on location. | Tracking uncertainty is shown; a live monitoring process can sound a warning. |
+| Location becomes unreliable | A clock alarm does not depend on location. | Tracking uncertainty is shown silently; no GPS-loss alarm is played. A station alarm can be missed if location does not recover. |
 
 The advantage is **less estimation and less timetable dependence**. The trade-off is dependence on location quality and Android allowing the monitoring service to keep running.
 
@@ -52,13 +54,15 @@ The advantage is **less estimation and less timetable dependence**. The trade-of
 | **Route and interchange selection** | Display supported corridor options and train changes; monitor each leg separately. |
 | **Offline route data** | Station coordinates and ordered corridors ship with the app. No map key, route-download step or backend is required. |
 | **Locked-screen monitoring** | A user-started foreground location service, persistent notification and bounded wake lock support an active journey. |
-| **Tracking checks** | Reject stale, inaccurate, off-route and implausible readings; warn about sustained uncertainty and reverse movement. |
+| **Tracking checks** | Reject stale, inaccurate, off-route and implausible readings; show silent warnings about sustained uncertainty and reverse movement. |
+| **Confirmed station alarms** | Require two distinct, consistent fresh readings near the wake-up station. Duplicate readings and timers cannot confirm arrival. Next-station trips retain the immediate stay-awake alert. |
 | **Custom alarm sounds** | Use the phone default, choose a phone alarm tone or import a playable audio file up to 32 MB. Preview it for five seconds. |
 | **Audio and vibration** | Loop the alarm with vibration; fall back through the phone default, bundled sound and generated tone if playback fails. |
 | **Minimal interface** | Persistent light/dark theme choice, route details and an animated train that follows confirmed progress. |
 | **Journey notifications** | Destination, approximate distance, geographic stations ahead, next station, tracking status and an End journey action. |
 | **Android 16 Live Updates** | Request the system progress card and compact status pill on compatible devices; the manufacturer controls promotion and appearance. See [Android's Live Updates guide](https://developer.android.com/develop/ui/views/notifications/live-update). |
 | **Local preferences** | Remember the selected journey, sound and theme using DataStore. No sign-in or analytics SDK. |
+| **Last alert details** | Record the latest alert type, reason and confirmed-fix age locally, with a Copy details button. No raw coordinates or automatic upload. |
 
 **Next-station trips:** the preceding station is your source. The app shows a stay-awake warning and sounds an alarm once a trustworthy location is confirmed; it does not promise a useful sleeping interval.
 
@@ -71,18 +75,23 @@ The advantage is **less estimation and less timetable dependence**. The trade-of
 3. **Start monitoring while the app is visible.** Check permissions, device location, notifications, alarm volume and Do Not Disturb before starting the foreground service.
 4. **Validate location updates.** Check freshness and accuracy, project accepted locations onto the route, and detect implausible jumps or reverse movement.
 5. **Update confirmed progress.** Move the train and update the notification from trusted progress. Uncertain positions are not extrapolated into a moving train.
-6. **Sound the alarm.** Trigger near the wake-up station, or immediately if an accepted reading has already passed it. Acknowledge the alarm to end the leg and release monitoring resources.
+6. **Confirm and sound the alarm.** Require two consistent fresh updates near or beyond the wake-up point, at least three seconds and at most 15 seconds apart. Acknowledge the station alarm to end the leg and release monitoring resources. Next-station trips alert immediately on their first trustworthy fix because the source is already the wake-up station.
 
 An internal **300 m approach allowance**, adjusted by reported location accuracy, helps detect approach to the previous station. This is a fixed implementation detail, not a configurable distance from your destination. Train progress and remaining distance still refer to the actual destination.
 
 ### Reliability is part of the design
 
 - Readings older than 20 seconds, with accuracy worse than 150 m, or outside a coarse route corridor are not trusted.
+- Duplicate and older batch entries are ignored. A brief poor reading does not change a still-fresh tracking status, move the confirmed marker or refresh the accepted-fix timestamp. The existing 20-second freshness and tracking-loss limits continue to apply.
 - Jump and sustained reverse-direction checks help detect readings that do not fit the journey.
-- Sustained unreliable tracking triggers an audible warning after 60 seconds, or earlier if plausible travel during the signal gap could reach the wake-up point.
+- Sustained unreliable tracking shows a **silent** warning after 60 seconds, or earlier if plausible travel during the signal gap could reach the wake-up point. It never starts audio or vibration merely because GPS was lost.
+- **Only a confirmed station approach plays the alarm.** Monitoring and direction warnings stay visible in the ongoing notification and app. Two consistent trusted fixes clear a GPS-loss warning without ending the journey. Recovery at the wake-up point becomes a station alarm instead. System-setting and direction warnings still require correcting the problem and restarting; confirmed station alarms remain latched until acknowledged.
+- **No audible GPS-loss fallback:** if usable location never recovers before the destination, the app may not wake the user. It does not substitute a timetable, countdown or invented position. This trade-off is also shown in the setup screen and travel checklist.
 - Losing GPS pauses the confirmed train marker. **Offline route data does not mean the app can locate you without usable device signals.** There is no dead reckoning or sensor-fusion position estimate in this version.
-- Each leg has a six-hour monitoring budget, followed by a warning. Ending the journey stops location updates, audio and vibration and releases the wake lock.
-- An interrupted-session marker warns when the app is reopened after an unexpected stop. Monitoring does not silently restart.
+- Each leg has a six-hour monitoring budget. Reaching that limit ends monitoring without an alarm; restarting the service does not reset the budget. Ending the journey stops location updates, audio and vibration, releases the wake lock and clears saved recovery instructions.
+- Active source, destination, exact route, leg and alarm sound survive process death. Android can restart the sticky foreground service; reopening the app can also restore an eligible interrupted journey. Recovery shows a location-checking status and requires two fresh, consistent readings before resuming tracking, including next-station trips. Old progress is not restored as a live location. An already confirmed station alarm remains latched; device-setting and direction warnings also remain latched.
+- Recovery does not start a new trip after reboot, expiry or an explicit End journey. Android force-stop and the system's Stop control can prevent background recovery. Reopening does not automatically resume a session whose exit record reports a user stop. Manufacturer restrictions can delay or prevent recovery; a persistent notification is not a guarantee.
+- **Monitoring details** saves Android's most recent available process-exit reason, service failures and standard battery-restriction status locally. The phone may not expose the precise cause of a manufacturer-initiated shutdown. No raw coordinates are included.
 
 ## Supported railway network
 
@@ -193,8 +202,8 @@ flowchart TD
     Service -->|Validate fix / tick| Engine
     Engine -->|Journey state| Service
     Service -->|StateFlow| UI
-    Service --> Notification[Journey notification / Live Update]
-    Service -->|Approach or tracking warning| Alarm[AlarmPlayer + vibration]
+    Service -->|Progress / silent warnings| Notification[Journey notification / Live Update]
+    Service -->|Confirmed station approach only| Alarm[AlarmPlayer + vibration]
 ```
 
 The tracking rules are separated from Android service and UI code so route progression, uncertainty and alarm decisions can be tested without a phone. The service owns device resources; Compose observes session state and renders the confirmed journey.
@@ -215,11 +224,11 @@ The tracking rules are separated from Android service and UI code so route progr
 
 **Kotlin · Jetpack Compose / Material 3 · Coroutines / StateFlow · Fused Location Provider · Android foreground services · DataStore · AndroidX notifications · JUnit 4**
 
-DataStore holds the small preference set, and a generated Kotlin catalogue holds offline stations. **Room, Firebase, an AI model, paid maps and a custom server are not used.** The application ID remains `com.laststop.app` from the project's original LastStop name so existing installations can be updated; the displayed app name is **wakemeup**.
+DataStore holds preferences, a small SharedPreferences record holds durable active-journey instructions, and a generated Kotlin catalogue holds offline stations. **Room, Firebase, an AI model, paid maps and a custom server are not used.** The application ID remains `com.laststop.app` from the project's original LastStop name so existing installations can be updated; the displayed app name is **wakemeup**.
 
 ## Testing and validation
 
-The current version has **56 passing local JUnit tests across six suites**. APK assembly and Android Lint were also completed; Lint reports **0 errors**, with dependency-update and Compose-style warnings. These results are local verification, not a claim of hosted CI or exhaustive field validation.
+The current version has **93 passing local JUnit tests across ten suites**. APK assembly and Android Lint passed, with **0 Lint errors** and existing dependency-update / Compose-style warnings. Tests cover the pure journey and recovery rules; actual Android process recreation and manufacturer battery policies require device testing. These results record local verification, not hosted CI or exhaustive field validation.
 
 | Suite | Tests | Main coverage |
 | --- | ---: | --- |
@@ -229,10 +238,16 @@ The current version has **56 passing local JUnit tests across six suites**. APK 
 | JourneyNotificationContentTest | 10 | Acquisition, stale/future fixes, warning text, interchange targets and ended journeys. |
 | StationWakeUpTest | 9 | Previous-station triggering, long gaps, skipped readings, late starts, short trips and both corridor directions. |
 | AudioImportTest | 3 | Bounded audio-file copying and invalid input handling. |
+| JourneyNoiseRegressionTest | 16 | Duplicate/older fixes, accuracy flicker, arrival confirmation, GPS-warning recovery, a complete noisy Panvel–Vashi journey replay and alert latching. |
+| JourneyAlertReportTest | 2 | Actual warning cause, missing-fix reporting and exclusion of raw coordinates. |
+| StationOnlyAlarmTest | 4 | Silent GPS loss and device/direction warnings, visible uncertainty, recovery, genuine station audio and ended journeys. |
+| JourneyRecoveryTest | 15 | Saved route/sound round trips, invalid snapshots, reboot/expiry, unchanged session budget, fresh-fix confirmation, alarm latching and a complete Vashi–Panvel replay with two engine recreations. |
 
 Run `.\build.ps1`, or the Gradle commands above. Reports are generated under `app/build/reports/tests/testDebugUnitTest/` and `app/build/reports/lint-results-debug.html`.
 
 **Still needs device testing:** station timing while awake, screen-locked monitoring, battery consumption, custom sound decoding, Bluetooth/headphone routing, permission changes, interrupted sessions and OEM Live Update promotion. The personal test device is a **OnePlus Nord CE5 running OxygenOS 16.0.5**; this is a test target, not a compatibility certification.
+
+See [background monitoring checks](docs/BACKGROUND_TESTING.md) for locked-screen journeys in both directions and controlled process-death testing on a development phone.
 
 ## Privacy and permissions
 
@@ -247,12 +262,13 @@ The app has **no `INTERNET` permission**, no account system, no analytics SDK an
 | Promoted notifications | Request Android 16 Live Updates on compatible systems. |
 | Vibration and wake lock | Vibrating alerts and bounded support for locked-screen processing. |
 
-Unrestricted background-location access, notification-listener access and overlay permissions are not requested. The MVP keeps an active journey in memory and a small interruption marker; it does not maintain a permanent GPS journey-history database. Journey information may appear on the lock screen through public notifications.
+Unrestricted background-location access, notification-listener access and overlay permissions are not requested. The MVP saves active journey instructions (route, leg, sound, timing, boot/process identifiers and latched alert), an interruption marker, one local last-alert report and one monitoring diagnostic report. Recovery instructions are removed when the journey ends. Last-alert details include confirmed progress, accuracy and fix age; monitoring details include Android's available exit reason and standard battery status. Neither report stores raw coordinates, and there is no permanent GPS journey-history database. Copying details is user-initiated; reports are not automatically uploaded. Journey information may appear on the lock screen through public notifications.
 
 ## Limitations
 
 - **GPS is not guaranteed.** Trains, tunnels, urban buildings, poor reception and device power management can disrupt monitoring. A running process can warn about uncertainty; a killed process cannot warn about its own failure.
 - **Offline does not mean signal-free tracking.** No tunnel prediction, inertial dead reckoning or automatic train identification is implemented.
+- **GPS loss does not wake the user.** Monitoring warnings are silent. A complete loss of usable location through the wake-up point can result in no station alarm.
 - **Geometry is approximate.** Straight segments join station centres; surveyed tracks, platforms, diversions and temporary closures are not represented.
 - **This is not live railway status.** There is no m-Indicator integration, live timetable feed, ticketing or stopping-pattern detection.
 - **Manufacturer behaviour varies.** Force-stop, process termination, reboot, shutdown or revoked permissions can stop protection. Headphones, volume and Do Not Disturb can affect audibility. Live Update promotion is system-controlled.
@@ -262,7 +278,7 @@ Test a new route while awake before depending on it for sleep.
 
 ## Possible next steps
 
-These are ideas, **not features available in v0.5.0**:
+These are ideas, **not features available in v0.5.3**:
 
 - Saved journeys and home-screen shortcuts.
 - A distinct wake-up station marker on the animated track.

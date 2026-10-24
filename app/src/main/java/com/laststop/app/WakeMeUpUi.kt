@@ -15,6 +15,7 @@ import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.text.selection.SelectionContainer
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -73,12 +74,16 @@ data class JourneyUiActions(
     val testSound: () -> Unit = {}, val stopPreview: () -> Unit = {}, val clearMessage: () -> Unit = {},
     val appSettings: () -> Unit = {}, val locationSettings: () -> Unit = {}, val attribution: () -> Unit = {},
     val notificationSettings: () -> Unit = {},
+    val copyAlertReport: () -> Unit = {},
+    val batterySettings: () -> Unit = {}, val copyMonitoringReport: () -> Unit = {},
 )
 
 @Composable fun WakeMeUpScreen(
     sourceId: String, destinationId: String, selectedPlanId: String,
     soundName: String, hasCustomSound: Boolean, settingsLoaded: Boolean, importingSound: Boolean,
     dark: Boolean, journey: JourneyState, active: Boolean, nowMs: Long, message: String?, actions: JourneyUiActions,
+    lastAlertReport: String = "",
+    lastMonitoringReport: String = "", backgroundNotice: String? = null,
 ) {
     val colors = MaterialTheme.colorScheme
     val plans = remember(sourceId, destinationId) { MumbaiNetwork.plans(sourceId, destinationId) }
@@ -92,6 +97,22 @@ data class JourneyUiActions(
     var soundPicker by remember { mutableStateOf(false) }
     var routeDetails by remember { mutableStateOf(false) }
     var help by remember { mutableStateOf(false) }
+    var alertDetails by remember { mutableStateOf(false) }
+    var monitoringDetails by remember { mutableStateOf(false) }
+
+    if (monitoringDetails) AlertDialog(onDismissRequest = { monitoringDetails = false }, title = { Text("Monitoring details") },
+        text = { Column(Modifier.verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            Text("Saved only on this phone. Android may report a crash, memory pressure or another shutdown reason. Some phone-specific shutdowns have no recorded cause.", fontSize = 13.sp)
+            SelectionContainer { Text(lastMonitoringReport, fontSize = 13.sp) }
+        } }, confirmButton = { TextButton(onClick = { monitoringDetails = false }) { Text("Done") } },
+        dismissButton = { TextButton(onClick = actions.copyMonitoringReport) { Text("Copy details") } })
+
+    if (alertDetails) AlertDialog(onDismissRequest = { alertDetails = false }, title = { Text("Last alert details") },
+        text = { Column(Modifier.verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+            Text("Saved only on this phone. This records why the last alert sounded; it is not a journey history.", fontSize = 13.sp)
+            SelectionContainer { Text(lastAlertReport, fontSize = 13.sp) }
+        } }, confirmButton = { TextButton(onClick = { alertDetails = false }) { Text("Done") } },
+        dismissButton = { TextButton(onClick = actions.copyAlertReport) { Text("Copy details") } })
 
     stationPicker?.let { source -> StationPicker(if (source) "Starting station" else "Destination",
         onDismiss = { stationPicker = null }, onSelected = {
@@ -115,7 +136,12 @@ data class JourneyUiActions(
             Text("The alarm sounds as you approach the station before your destination on the selected route. For a train change, it uses the station before that interchange. Station order does not describe which stops a fast train will make.")
             Text("Test your alarm with your usual headphones. Keep alarm volume audible and Do Not Disturb off.")
             Text("On OnePlus, allow background activity in wakemeup’s app battery settings if available. Keep the journey notification visible.")
+            Text("A saved active journey can recover when Android restarts the service, or when you reopen the app. Tracking waits for two fresh location readings. Recovery can be delayed or blocked by the phone; an explicit End journey, force-stop or reboot is not a background recovery trigger.")
             Text("The train marker shows the last confirmed position. If location is lost, it pauses and the app warns you. Force-stopping the app or switching off the phone stops protection.")
+            Text("Only a confirmed station approach plays the alarm. Monitoring and direction warnings are silent. If GPS does not recover before your stop, the app may not wake you. A GPS-loss warning clears after two consistent location updates. Device-setting or direction warnings require checking the problem and restarting the journey.")
+            TextButton(onClick = { help = false; alertDetails = true }, enabled = lastAlertReport.isNotBlank()) { Text("Last alert details") }
+            TextButton(onClick = { help = false; monitoringDetails = true }, enabled = lastMonitoringReport.isNotBlank()) { Text("Monitoring details") }
+            TextButton(onClick = actions.batterySettings) { Text("Battery optimization settings") }
             TextButton(onClick = actions.appSettings) { Text("App settings") }
             TextButton(onClick = actions.locationSettings) { Text("Location settings") }
             if (Build.VERSION.SDK_INT >= 36) {
@@ -133,7 +159,8 @@ data class JourneyUiActions(
                     if (journey.status == TrackingStatus.ALARM) Button(onClick = actions.stop,
                         modifier = Modifier.fillMaxWidth().heightIn(min = 56.dp), shape = RoundedCornerShape(18.dp),
                         colors = ButtonDefaults.buttonColors(containerColor = colors.error, contentColor = colors.background)) {
-                        Text("I’m awake · End ${if (journey.hasNextLeg) "leg" else "journey"}", fontSize = 16.sp, fontWeight = FontWeight.SemiBold)
+                        Text(if (journey.alarmKind == AlarmKind.APPROACH) "I’m awake · End ${if (journey.hasNextLeg) "leg" else "journey"}"
+                            else "End journey", fontSize = 16.sp, fontWeight = FontWeight.SemiBold)
                     } else OutlinedButton(onClick = actions.stop, modifier = Modifier.fillMaxWidth().heightIn(min = 56.dp), shape = RoundedCornerShape(18.dp)) {
                         Text("End journey", fontSize = 16.sp)
                     }
@@ -171,6 +198,18 @@ data class JourneyUiActions(
                         }
                         if (text.contains("location", true) || text.contains("permission", true) || text.contains("notification", true))
                             TextButton(onClick = actions.appSettings) { Text("Open app settings") }
+                    }
+                }
+            } }
+            backgroundNotice?.let { text -> item {
+                Surface(color = colors.surfaceVariant, shape = RoundedCornerShape(16.dp)) {
+                    Column(Modifier.padding(16.dp), verticalArrangement = Arrangement.spacedBy(6.dp)) {
+                        Text("Background monitoring", fontWeight = FontWeight.SemiBold, fontSize = 14.sp)
+                        Text(text, fontSize = 13.sp, color = colors.onSurfaceVariant)
+                        Row {
+                            TextButton(onClick = actions.batterySettings) { Text("Battery settings") }
+                            TextButton(onClick = actions.appSettings) { Text("App settings") }
+                        }
                     }
                 }
             } }
@@ -271,6 +310,8 @@ data class JourneyUiActions(
             Text(if (leg.wakeAtSource) "Your destination is next. The alarm sounds once location is confirmed. Stay awake."
                 else "As you approach ${leg.wakeStation.name}, before ${leg.route.stations.last().name}.",
                 color = if (leg.wakeAtSource) colors.error else colors.onSurfaceVariant, fontSize = 13.sp)
+            Text("GPS warnings are silent. Lost location can prevent the station alarm.",
+                color = colors.onSurfaceVariant, fontSize = 12.sp)
         }
     }
 }
@@ -280,14 +321,16 @@ data class JourneyUiActions(
     val fresh = JourneyVisuals.fresh(state, nowMs)
     val warning = state.status == TrackingStatus.UNCERTAIN || state.status == TrackingStatus.ALARM || state.status == TrackingStatus.TRACKING && !fresh
     val status = when {
-        state.status == TrackingStatus.ALARM -> "Wake up & check your stop"
+        state.status == TrackingStatus.ALARM && state.alarmKind == AlarmKind.APPROACH -> "Wake up · Your station is next"
+        state.status == TrackingStatus.ALARM && state.alarmKind == AlarmKind.DIRECTION -> "Silent direction warning"
+        state.status == TrackingStatus.ALARM -> "Silent monitoring warning · Stay awake"
         state.status == TrackingStatus.ACQUIRING -> "Finding your location"
         !fresh -> "Checking location · train paused"
         else -> "Journey active"
     }
     Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally, verticalArrangement = Arrangement.spacedBy(18.dp)) {
         Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(9.dp)) {
-            Box(Modifier.size(8.dp).background(if (warning) colors.error else colors.secondary, CircleShape))
+            Box(Modifier.size(8.dp).background(if (warning) colors.error else if (fresh) colors.secondary else colors.outline, CircleShape))
             Text(status, fontSize = 13.sp, color = if (warning) colors.error else colors.onSurfaceVariant)
         }
         Spacer(Modifier.height(12.dp))

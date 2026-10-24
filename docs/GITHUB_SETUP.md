@@ -105,8 +105,8 @@ Publish APKs as [GitHub Release assets](https://docs.github.com/en/repositories/
 
 1. Build and verify with `.\build.ps1`.
 2. On the repository page, open **Releases** and create a new release.
-3. Use tag `v0.5.0` targeting the uploaded `main` branch, and a title such as `wakemeup v0.5.0 — Station-based wake-up alarms`.
-4. Attach `app/build/outputs/apk/debug/app-debug.apk`. You can name the uploaded asset `wakemeup-v0.5.0-debug.apk`.
+3. After uploading the matching source commit, use tag `v0.5.3` targeting it, and a title such as `wakemeup v0.5.3 — Journey recovery and interruption diagnostics`.
+4. Attach `app/build/outputs/apk/debug/app-debug.apk`. You can name the uploaded asset `wakemeup-v0.5.3-debug.apk`.
 5. Describe it as a personal/testing build. Mention Android 8.0+, Google Play services, the required permissions, station-based wake-up behaviour and the need to test while awake.
 6. Publish when you are ready and add its actual download link to the README.
 

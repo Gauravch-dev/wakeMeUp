@@ -25,7 +25,11 @@ data class JourneyNotificationContent(
             val context = "$wake\n${route.stations.first().name} → $target · ${state.leg.lineName}"
             if (state.status == TrackingStatus.ALARM) {
                 return JourneyNotificationContent(
-                    if (state.alarmKind == AlarmKind.APPROACH) "Wake up · $target" else "Check your journey · $target",
+                    when (state.alarmKind) {
+                        AlarmKind.APPROACH -> "Wake up · $target"
+                        AlarmKind.DIRECTION -> "Silent direction warning · $target"
+                        else -> "Silent monitoring warning · $target"
+                    },
                     state.message, "$legLabel\n${state.message}\n$context", "Check", fraction, false, false,
                 )
             }
